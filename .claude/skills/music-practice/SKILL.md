@@ -31,6 +31,15 @@ Le tout est **agnostique de l'instrument** : la dimension « mains » du piano e
 généralisée en « composantes » adaptées à chaque famille d'instrument.
 → `references/instrument-profiles.md`
 
+> **Principe directeur (non négociable).** Le skill ne se limite pas à un
+> planning : il doit incarner toute la pédagogie de Gebrian et son fondement
+> neurologique. *Jouer ≠ pratiquer* — pratiquer, c'est **résoudre des problèmes**
+> et **entraîner le cerveau** (renforcer le bon chemin neuronal, myéliniser,
+> consolider pendant les pauses/sommeil, éviter les interférences). Le **pourquoi**
+> est détaillé dans `references/neuroscience.md`, qui contient une **grille
+> d'auto-contrôle en 10 points**. Cette grille doit être **passée avant** d'écrire
+> un découpage dans Notion (SETUP) et **avant** d'émettre un plan (PLANNING).
+
 ## Quand utiliser quel workflow
 
 | Situation | Workflow | Section |
@@ -84,7 +93,11 @@ dans le workspace (voir `references/example-prelude-xv.md`).
    - Ajouter une page « 📖 Guide du projet » expliquant la structure (réutiliser
      le gabarit de l'exemple existant).
 
-5. **Ne jamais** écrire dans Notion sans validation du découpage à l'étape 3
+5. **Contrôle de fidélité** : avant d'écrire, passer le découpage à la **grille
+   d'auto-contrôle** de `references/neuroscience.md` (faiblesses d'abord ?
+   chunking pour l'encodage ? interférence rétroactive évitée dans l'ordre des
+   passages ? composantes correctes ?). Corriger si un point échoue.
+6. **Ne jamais** écrire dans Notion sans validation du découpage à l'étape 3
    (action difficilement réversible). Confirmer le résultat avec les URLs créées.
 
 ---
@@ -118,6 +131,7 @@ et faire progresser chaque passage le long de
 
 ## Fichiers de référence
 
+- `references/neuroscience.md` — **le « pourquoi »** : mécanismes neuro, philosophie pédagogique, **grille d'auto-contrôle en 10 points**.
 - `references/molly-principles.md` — principes & stratégies de Gebrian (condensé actionnable).
 - `references/casares-decoupage.md` — méthode de découpage de Casares.
 - `references/instrument-profiles.md` — composantes & pratique variable par famille d'instrument.

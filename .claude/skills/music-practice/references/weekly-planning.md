@@ -32,17 +32,33 @@ Trier les passages dus par : `Priorité` **Rouge → Jaune → Vert**, puis par
 travaillés **en début de séance** (cerveau frais) et **juste avant le sommeil /
 au réveil** s'il s'agit de mémorisation (ch. 13).
 
-## Étape 3 — Répartir sur la semaine en entrelaçant (ch. 7-8)
-- **Interleaving** : ne pas mettre tout un morceau en bloc ; **alterner**
-  passages et morceaux dans une même séance et d'un jour à l'autre.
+## Étape 3 — Répartir sur la semaine : blocked → serial → interleaved (ch. 7-8)
+⚠️ **Ne pas entrelacer trop tôt.** L'interleaving prépare la *performance*, mais
+sur du matériel **non encore solidifié** il augmente l'interférence rétroactive
+et **ralentit** l'apprentissage. Suivre la progression de Molly, par passage,
+selon sa `Progression` :
+
+1. **Blocked** (passage `À travailler`/`En travail`, neuf) : travail concentré
+   et répété **par blocs** pour solidifier (il faut pouvoir le jouer ≥ 5× de
+   suite avant d'espérer le *performer*).
+2. **Serial** (passage `Fluide`) : alternance **prévisible** entre quelques
+   passages (A, B, C, A, B, C…) → le cerveau s'entraîne à changer de geste.
+3. **Interleaved / aléatoire** (passage `Fluide`→`Maîtrisé`, et prépa concert) :
+   passages tirés dans un **ordre aléatoire**, premier essai à chaque fois →
+   simule la performance.
+
+Règles transverses :
 - **Éviter l'interférence rétroactive** : **ne pas enchaîner deux passages
-  neufs très similaires** (mesures voisines d'un même morceau encore fragiles,
-  ou deux motifs proches). Les séparer par ≥ 6 h, ou par un autre jour, ou par
-  un passage contrastant entre les deux.
-- **Respecter le schedule espacé** : viser ~3 jours rapprochés sur un nouveau
-  passage, puis l'espacer ; alimenter `Prochaine séance` en conséquence.
-- Pendant les **pauses**, prévoir de la musique **contrastante** (autre morceau,
-  autre caractère).
+  neufs très similaires** (mesures voisines encore fragiles, deux motifs
+  proches). Les séparer par ≥ 6 h, un autre jour, ou un passage contrastant.
+- **Respecter le schedule espacé** : un passage neuf est revisité **~3×/jour
+  espacées (~1 h d'écart, pas en boucle continue — fenêtre LTP)** les premiers
+  jours, ~3 jours rapprochés, puis on espace ; alimenter `Prochaine séance`.
+- Pendant les **pauses**, prévoir de la musique **contrastante** (un passage
+  *similaire* annulerait la consolidation).
+- **Mesure au lendemain (anti-illusion de maîtrise)** : ne jamais conclure
+  « acquis » sur une bonne fin de séance ; prévoir une **reprise à froid le
+  lendemain** comme vrai test, et n'avancer la `Progression` qu'en fonction.
 
 ## Étape 4 — Structurer chaque séance
 Squelette d'une séance (ex. 45 min) :
@@ -54,8 +70,10 @@ Squelette d'une séance (ex. 45 min) :
 3. **Bloc(s) Jaune** : consolidation, montée en tempo (click-up, at-tempo
    chunking), connexion des chunks et des passages.
 4. **Bloc Vert / Maîtrisé** : **pratique variable** (cf. `instrument-profiles.md`)
-   + performance simulée (serial practice, ordre aléatoire, interval timer) +
-   test de mémoire.
+   — seulement une fois le passage propre, et au **« sweet spot »** : garder un
+   même paramètre **~3 reps puis varier** (le tout-aléatoire est trop dur, le
+   constant trop facile) — + performance simulée (serial → ordre aléatoire,
+   interval timer) + test de mémoire.
 5. **Pause ≥ 5 min toutes les 25-30 min** ; séance idéalement ≤ 60-90 min puis
    longue pause ; ≤ 5 h/jour au total.
 

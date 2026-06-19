@@ -4,6 +4,12 @@ Condensé actionnable de *Learn Faster, Perform Better: A Musician's Guide to th
 Neuroscience of Practicing* (Oxford, 2024). Ce sont les règles que **le
 découpage ET la planification** doivent respecter, quel que soit l'instrument.
 
+> Le **« pourquoi »** (mécanismes neuro + philosophie pédagogique + grille
+> d'auto-contrôle) est dans **`neuroscience.md`** — à utiliser comme garde-fou.
+> Idée maîtresse : *jouer ≠ pratiquer* ; pratiquer = **résolution de problème**
+> + **entraînement du cerveau** ; la qualité (et l'espacement) battent la
+> quantité.
+
 ## 1. Pratique délibérée et points difficiles (ch. 1-3)
 - **Commencer par les points difficiles.** Comprendre *précisément* pourquoi
   ça coince, décomposer en sous-problèmes, résoudre, puis **solidifier**.
@@ -43,9 +49,13 @@ découpage ET la planification** doivent respecter, quel que soit l'instrument.
   sans y toucher.
 
 ## 3. Consistance et interleaving (ch. 7-8)
-- **Pratique entrelacée (interleaved)** plutôt que par blocs : alterner les
-  passages/morceaux au lieu de marteler un seul. Plus dur sur le moment, bien
-  meilleur en rétention et en performance.
+- **Progression blocked → serial → interleaved** (et non « interleaver tout de
+  suite ») : d'abord **blocked** pour *solidifier* un passage neuf (pouvoir le
+  jouer ≥ 5× de suite), puis **serial** (alternance prévisible), puis
+  **interleaved/aléatoire** pour préparer la performance. Interleaver **trop
+  tôt** augmente l'interférence rétroactive et ralentit l'apprentissage.
+- **Illusion de maîtrise** : bien jouer en fin de séance ne prouve rien ; le
+  vrai test = **le lendemain à froid**, au premier essai.
 - **Serial practice** : liste des points durs, jouer chacun une fois à la suite,
   une coche par bonne exécution, viser 5 coches (une mauvaise efface les coches).
 - **Interval timer** / **time-constrained** : changer de passage toutes les
