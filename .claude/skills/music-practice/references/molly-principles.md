@@ -121,4 +121,3 @@ découpage ET la planification** doivent respecter, quel que soit l'instrument.
 - **Pratique variable** dès qu'un passage est joué proprement, pas avant.
 - **Tester la mémoire tôt** ; viser la mémorisation 6 semaines avant un concert.
 - Bloc de **pratique mentale** quand le temps/instrument manque (20 min).
-</content>

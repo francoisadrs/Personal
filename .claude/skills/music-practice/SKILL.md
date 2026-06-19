@@ -59,8 +59,9 @@ dans le workspace (voir `references/example-prelude-xv.md`).
 
 1. **Identifier le contexte** (demander seulement ce qui manque) :
    - Instrument (→ choisir le profil dans `references/instrument-profiles.md`).
-   - Niveau visé / échéance (concert, examen, plaisir) — influence le tempo
-     cible et la planif (mémorisation 6 semaines avant un concert).
+   - **Mode** (`references/roadmap-and-deadlines.md`) : *Échéance* (date fixe →
+     roadmap à rebours + faisabilité) ou *Au long cours* (rythmé par la
+     difficulté). Si Échéance : récupérer la `Date échéance`.
    - Tempo cible (BPM) si connu ; sinon estimer d'après la partition / une
      référence.
 
@@ -158,15 +159,31 @@ et faire progresser chaque passage le long de
 
 ---
 
+## Workflow LESSON — intégrer les retours de cours (revue automatisée)
+
+Après un cours, l'utilisateur saisit (ou dicte) les retours du professeur. Le
+skill les **capture** dans la base « Journal de cours », puis la **revue
+automatisée** les classe et met la base à jour — voir
+`references/lesson-integration.md`. Chaque conseil est typé (doigté à changer,
+correction d'habitude, astuce qui accélère, indication ajoutée, technique neuve)
+et appliqué selon la science de Gebrian (nouvelle voie neuronale, *old way / new
+way*, surapprentissage, pratique espacée + transfert), avec ré-ouverture de
+passage, mise à jour des doigtés, création de couches/mini-objectifs, et
+**recalcul de `D` / palier / roadmap** au besoin. Cette revue tourne aussi à
+chaque planification hebdo (`weekly-planning.md` Étape 6) : **c'est elle qui
+tient Notion à jour**, pas la saisie manuelle.
+
+---
+
 ## Fichiers de référence
 
 - `references/neuroscience.md` — **le « pourquoi »** : mécanismes neuro, philosophie pédagogique, **grille d'auto-contrôle en 10 points**.
 - `references/molly-principles.md` — principes & stratégies de Gebrian (condensé actionnable).
 - `references/difficulty-assessment.md` — **évaluation de la difficulté du morceau & du niveau du pratiquant**, et comment ils règlent les curseurs de la méthode + boucle de ré-évaluation.
+- `references/roadmap-and-deadlines.md` — **mode Échéance vs Au long cours** : planification à rebours, faisabilité, compression + alerte.
+- `references/lesson-integration.md` — **intégrer les retours de cours** (doigté/astuce/indication/technique) + **revue automatisée** qui met la base à jour.
 - `references/casares-decoupage.md` — méthode de découpage de Casares.
 - `references/instrument-profiles.md` — composantes & pratique variable par famille d'instrument.
 - `references/notion-contract.md` — schéma Notion canonique + opérations de lecture/écriture.
 - `references/weekly-planning.md` — algorithme et format du plan hebdomadaire.
 - `references/example-prelude-xv.md` — l'exemple de référence (structure exacte à imiter).
-</content>
-</invoke>

@@ -12,7 +12,7 @@ l'instrument**.
   semaines avant**, et densifier l'interleaving en performance simulée.
 - Morceaux actifs (`Status = In progress` dans Projects) **et leur `Palier`**.
 
-## Étape 0 — Calibrer par le palier de difficulté
+## Étape 0 — Calibrer par le palier + le mode
 Lire le `Palier` (Confort / Cible / Étirement / Étirement fort) de chaque morceau
 (`difficulty-assessment.md` §5) et en déduire les **curseurs** du plan : taille
 des chunks, % de surapprentissage, moment du passage blocked→serial→interleaved,
@@ -21,6 +21,11 @@ pratique mentale, et surtout le **nombre de passages neufs ouverts en parallèle
 (faible en Étirement). Le délai de mémorisation avant concert suit aussi le
 palier (3–4 / 6 / 8+ semaines). En l'absence de palier, le **calculer** d'abord
 (D, L → R) ou demander validation.
+
+Lire aussi le **`Mode`** (`roadmap-and-deadlines.md`) : en **Échéance**, planifier
+**à l'intérieur de la roadmap** (jalons à rebours, faisabilité) et prioriser ce
+qui est en retard sur les jalons ; en **Au long cours**, suivre le rythme espacé
+dicté par le palier, sans compression.
 
 ## Étape 1 — Déterminer les passages « dus » (pratique espacée, ch. 6)
 Pour chaque sous-tâche (passage × composante), calculer s'il est dû cette
@@ -128,16 +133,21 @@ standard, pas un extra : c'est ce qui rend l'espacement et le suivi pilotables.
   (`notion-contract.md`).
 - En option, créer les événements Google Calendar.
 
-## Étape 6 — Ré-évaluer & recalibrer (cf. `difficulty-assessment.md` §6)
-- **Chaque revue hebdo** : mesurer la **vélocité** (séances→`Fluide`, % de
-  passages avancés vs `Durée estimée`). Si <0,7× pendant ~2 sem → **monter d'un
-  palier** (chunks plus petits, plus d'espacement, interleaving plus tardif,
-  moins de fronts neufs) et revoir `D` ; si >1,3× → **descendre d'un palier**
-  (accélérer). Écrire `Vélocité`/`Palier` dans Projects.
+## Étape 6 — Revue automatisée : ré-évaluer & intégrer les cours
+Lancer la **revue automatisée** (`lesson-integration.md`) à chaque revue hebdo
+(et après un cours). Elle :
+- **Intègre les conseils `À traiter`** du Journal de cours : ré-ouverture de
+  passages (doigté/habitude → matériel neuf), nouvelles couches/mini-objectifs
+  (indication/technique), astuces adoptées ; puis conseils → `Intégré`.
+- **Mesure la vélocité** (séances→`Fluide`, % passages avancés vs `Durée
+  estimée`). <0,7× pendant ~2 sem → **monter d'un palier** (chunks plus petits,
+  plus d'espacement, interleaving plus tardif, moins de fronts neufs) + revoir
+  `D` ; >1,3× → **descendre d'un palier**. Écrire `Vélocité`/`Palier`.
+- **Met à jour la roadmap / `Faisabilité`** (`roadmap-and-deadlines.md`) : en mode
+  Échéance, **re-compresser + avertir** si la date se tend.
 - **À chaque morceau maîtrisé** : `Status = Done`, `Date maîtrise`,
-  `Durée réelle` ; recalculer la courbe heures/niveau et **mettre à jour
-  `Niveau actuel (L)`** sur la page « Profil pratiquant » → `R` des morceaux en
-  cours est recalculé.
+  `Durée réelle` ; recalcul de la courbe heures/niveau et **mise à jour de
+  `Niveau actuel (L)`** (Profil) → `R` des morceaux en cours recalculé.
 - **Garde-fou anti-frustration** : si un morceau en Étirement fort stagne,
   réduire les fronts ouverts et intercaler un morceau Confort/Cible.
 
@@ -168,4 +178,3 @@ doivent passer À travailler → En travail → Fluide → Maîtrisé) et les
   que de deviner silencieusement.
 - Ne pas dépasser le temps disponible déclaré ; mieux vaut moins de passages
   bien espacés que tout, mal réparti.
-</content>

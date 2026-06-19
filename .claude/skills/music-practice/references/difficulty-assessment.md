@@ -131,4 +131,3 @@ Voir `notion-contract.md`.
   l'historique des morceaux (niveau + durée, dérivable des projets terminés) et
   la **courbe heures/niveau**. C'est la source de `L` pour calculer `R`, mise à
   jour par le planner à chaque morceau maîtrisé et à la revue mensuelle.
-</content>

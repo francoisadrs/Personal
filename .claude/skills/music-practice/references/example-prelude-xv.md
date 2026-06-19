@@ -73,4 +73,3 @@ chaque passage que vous travaillez, vous créez :
 - Entrelacer les passages ; éviter deux passages neufs très proches à la suite.
 - Pratique variable une fois le passage propre ; tester la mémoire tôt.
 ```
-</content>

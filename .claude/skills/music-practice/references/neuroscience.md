@@ -131,4 +131,3 @@ relire avant de produire un plan ou un découpage, comme grille de contrôle.
    corporelle.
 10. **Mesuré au lendemain ?** Le plan prévoit une **reprise à froid** le jour
     suivant comme vrai test (anti-illusion de maîtrise).
-</content>

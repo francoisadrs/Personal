@@ -94,4 +94,3 @@ les coordonner. Ce fichier donne, par famille d'instrument :
 Si l'instrument n'est pas listé : appliquer le principe — séparer les couches
 indépendantes (membres, ou dimensions notes/articulation/souffle), automatiser
 chacune, puis une composante « Ensemble » qui coordonne.
-</content>

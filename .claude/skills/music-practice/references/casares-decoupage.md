@@ -71,4 +71,3 @@ points faibles ; alterner les sections = interleaving).
 
 Ce découpage devient la liste des « passages » de la base Notion (un passage
 principal + une sous-tâche par composante), voir `notion-contract.md`.
-</content>

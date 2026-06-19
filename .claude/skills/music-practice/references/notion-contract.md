@@ -10,7 +10,7 @@ dates). Utiliser les outils MCP `notion-search`, `notion-fetch`,
 > récupérer le schéma et les `data_source_id` à jour (les IDs ci-dessous sont
 > ceux constatés ; ils peuvent évoluer — re-vérifier).
 
-## Modèle à trois niveaux
+## Modèle Notion (4 objets)
 
 1. **Base « Projects »** — un projet de haut niveau par morceau.
    - DB : `https://app.notion.com/p/c5f6dd5308a14e63a28beb6ea02b3f2e`
@@ -24,6 +24,10 @@ dates). Utiliser les outils MCP `notion-search`, `notion-fetch`,
      Confort, Cible, Étirement, Étirement fort), `Difficulté relative (R)`
      (number), `Durée estimée (h)` (number), `Durée réelle (h)` (number),
      `Date début` (date), `Date maîtrise` (date), `Vélocité` (number).
+   - **Champs roadmap à ajouter** (cf. `roadmap-and-deadlines.md`) :
+     `Mode` (select : *Au long cours*, *Échéance*), `Date échéance` (date),
+     `Roadmap` (text : jalons + dates cibles), `Faisabilité` (select : OK, Serré,
+     À risque).
    - Exemple : page « 🎹 Prelude XV ».
 
 2. **Base dédiée au morceau** — les passages et leur suivi détaillé.
@@ -44,6 +48,18 @@ dates). Utiliser les outils MCP `notion-search`, `notion-fetch`,
        les `Durée estimée` et à situer `L` (cf. `difficulty-assessment.md` §3, §6).
    - C'est le planner qui met `L` à jour à chaque morceau maîtrisé et à la revue
      mensuelle ; le SETUP y lit `L` pour calculer `R`.
+
+4. **Base « Journal de cours »** — les retours du professeur (cf.
+   `lesson-integration.md`). Une base **globale** (à créer si absente), une
+   entrée par conseil :
+   - `Conseil` (title) · `Date` (date) · `Morceau` (relation → Projects) ·
+     `Passage concerné` (text) · `Type` (select : Doigté, Correction d'habitude,
+     Astuce/Raccourci, Indication ajoutée, Nouvelle technique, Musicalité) ·
+     `Action` (text) · `Impact` (select : Ré-ouvre passage, Nouvelle couche/passage,
+     Baisse difficulté, Mini-objectif, Aucun) · `Statut` (select : À traiter,
+     Intégré).
+   - Lue par la **revue automatisée** (`lesson-integration.md`) : les conseils
+     `À traiter` sont appliqués au projet puis passés à `Intégré`.
 
 ## Schéma canonique de la base d'un morceau
 
@@ -111,14 +127,18 @@ DUAL 'Parent').
 
 ## Création d'un projet (SETUP) — séquence
 
-0. **Difficulté & niveau** : lire `L` sur la page « Profil pratiquant » (la
+0. **Difficulté, niveau & mode** : lire `L` sur la page « Profil pratiquant » (la
    créer si absente), estimer `D` puis `R`/`Palier` et la `Durée estimée`
-   (`difficulty-assessment.md`) — **proposer ces valeurs à l'utilisateur pour
-   validation** (mode « auto + validation »).
+   (`difficulty-assessment.md`) ; déterminer le **`Mode`** (Au long cours /
+   Échéance + `Date échéance`) et, si Échéance, la **roadmap à rebours** +
+   `Faisabilité` (`roadmap-and-deadlines.md`) — **proposer le tout à
+   l'utilisateur pour validation** (mode « auto + validation »). S'assurer aussi
+   que la base globale **Journal de cours** existe (la créer sinon).
 1. `notion-create-pages` dans la base **Projects** : page du morceau,
    `Status = In progress`, + champs de difficulté validés (`Niveau morceau (D)`,
    `Source niveau`, `Référence`, `Palier`, `Difficulté relative (R)`,
-   `Durée estimée (h)`, `Date début` = aujourd'hui).
+   `Durée estimée (h)`, `Date début` = aujourd'hui) + champs de mode
+   (`Mode`, `Date échéance`, `Roadmap`, `Faisabilité`).
 2. `notion-create-database` : la base du morceau (DDL ci-dessus, parent = la page
    créée à l'étape 1). Récupérer le `data_source_id`.
 3. `notion-update-data-source` : ajouter les self-relations `Parent`/`Enfants`.
@@ -175,7 +195,10 @@ planner n'a **pas** de mode dégradé, il lit partout le schéma canonique.
    - `Passage` (via le parent), `Composante`, `Progression`, `Priorité`,
      `Techniques`, `Tempo actuel`, `Tempo cible`, `Ordre`,
      `Dernière séance`, `Prochaine séance`, `Nb séances`, `Observations`.
-4. En déduire l'état **et le `Palier`** pour `weekly-planning.md` (le palier
+4. Lire le **`Mode`** + roadmap/échéance du morceau (`roadmap-and-deadlines.md`)
+   et les conseils **`À traiter`** dans la base **Journal de cours**
+   (`lesson-integration.md`).
+5. En déduire l'état **et le `Palier`** pour `weekly-planning.md` (le palier
    règle les curseurs ; cf. `difficulty-assessment.md`).
 
 ## Réécriture par le planner — après avoir planifié / après une séance
@@ -196,11 +219,17 @@ morceau et la page « Profil pratiquant » :
 - à la maîtrise du morceau : `Status = Done`, `Date maîtrise`, `Durée réelle (h)` ;
   puis recalcul de la courbe heures/niveau et **mise à jour de `Niveau actuel (L)`**.
 
-> Le planner **ne crée pas** de nouveaux passages ; il consomme le découpage
-> existant. La création/modification du découpage relève du workflow SETUP.
+**Revue automatisée des conseils (cf. `lesson-integration.md`)** : appliquer les
+entrées `À traiter` du Journal de cours (ré-ouverture de passage, `Doigtés` mis à
+jour, nouvelle couche/passage, mini-objectif), recalculer `D`/`Palier` si la
+charge change, mettre à jour la **roadmap/`Faisabilité`** (en mode Échéance :
+**re-compresser + avertir**), puis passer les conseils à `Intégré`.
+
+> Le planner peut **ré-ouvrir** des passages et **ajouter** des couches/mini-
+> objectifs **uniquement** suite à un conseil de cours (via la revue automatisée).
+> La création initiale du découpage relève du workflow SETUP.
 
 ## Intégration agenda (optionnelle)
 Si demandé, le planner peut matérialiser les séances dans **Google Calendar**
 (`Google_Calendar.create_event`) : un événement par bloc/séance, avec en
 description la liste ordonnée des passages × composantes × méthode × tempo.
-</content>
