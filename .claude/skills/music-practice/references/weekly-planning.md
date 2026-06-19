@@ -26,6 +26,13 @@ semaine selon `Progression`, `Dernière séance` et `Nb séances` :
 Un passage est **dû** si `Dernière séance` + intervalle ≤ jour planifié. Les
 nouveaux et les Rouges sont toujours prioritaires.
 
+**Repli pour projet « legacy »** (ex. le Prélude XV existant, sans les champs de
+planification et avec la propriété `Main` au lieu de `Composante`) : si
+`Dernière séance` / `Nb séances` / `Priorité` sont absents, planifier à partir
+de la seule `Progression` (table ci-dessus) et **proposer d'ajouter ces champs**
+à la base via `notion-update-data-source` pour activer le vrai suivi espacé. Lire
+la propriété de couche qu'elle s'appelle `Main` ou `Composante`.
+
 ## Étape 2 — Prioriser (R/J/V + difficile d'abord)
 Trier les passages dus par : `Priorité` **Rouge → Jaune → Vert**, puis par
 `Ordre` (section difficile d'abord, Casares). Les points Rouges/nouveaux sont
