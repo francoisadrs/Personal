@@ -64,27 +64,41 @@ dans le workspace (voir `references/example-prelude-xv.md`).
    - Tempo cible (BPM) si connu ; sinon estimer d'après la partition / une
      référence.
 
-2. **Analyser la partition** pour le découpage. Appliquer
-   `references/casares-decoupage.md` :
+2. **Évaluer la difficulté et le niveau** (`references/difficulty-assessment.md`) :
+   - Estimer la **difficulté du morceau `D`** (réputation/standard : ABRSM,
+     conservatoire, Henle, A Dozen a Day, Le Bach à nos jours… + complexité
+     intrinsèque + étalonnage par les durées passées).
+   - Estimer le **niveau du pratiquant `L`** (historique des morceaux maîtrisés
+     dans Notion).
+   - En déduire le **palier `R = D − L`** (Confort / Cible / Étirement) → il fixe
+     les **curseurs** du découpage et du plan (taille des chunks, % de
+     surapprentissage, montée en tempo, etc.). Prédire une **durée estimée**.
+
+3. **Analyser la partition** pour le découpage. Appliquer
+   `references/casares-decoupage.md`, **calibré par le palier** (étape 2) :
    - Repérer la **structure** (sections, phrases, séquences, motifs récurrents,
      cadences) et les **points difficiles** (Rouge) à attaquer en premier.
-   - Découper en **passages** courts (souvent 2–4 mesures, ou une unité
-     musicale). Un passage doit être maîtrisable en quelques séances.
+   - Découper en **passages** dont la taille suit le palier (Confort :
+     phrase/section ; Cible : 2–4 mesures ; Étirement : 1–2 mes / motif).
+     Un passage doit être maîtrisable en quelques séances.
    - Classer chaque passage Rouge / Jaune / Vert (méthode de Gebrian, ch. 2).
+   - Le **nombre de passages 🔴** alimente en retour l'estimation de `D`.
    - Noter doigtés critiques, articulations, techniques (gammes, arpèges,
      trilles, legato, staccato…), tempo de travail.
 
-3. **Proposer le découpage à l'utilisateur AVANT d'écrire dans Notion** :
-   un tableau ordonné des passages avec, pour chacun : mesures, priorité
-   (R/J/V), composantes à travailler, techniques, difficulté, tempo cible,
-   ordre d'apprentissage recommandé (section difficile d'abord). Valider /
-   ajuster avec lui.
+4. **Proposer le découpage à l'utilisateur AVANT d'écrire dans Notion** :
+   le **palier de difficulté `R`** + une **durée estimée**, puis un tableau
+   ordonné des passages avec, pour chacun : mesures, priorité (R/J/V),
+   composantes à travailler, techniques, difficulté, tempo cible, ordre
+   d'apprentissage recommandé (section difficile d'abord). Valider / ajuster.
 
-4. **Créer (ou normaliser) le projet Notion** selon
+5. **Créer (ou normaliser) le projet Notion** selon
    `references/notion-contract.md`. **C'est le skill qui impose la structure** :
    tout projet de morceau suit le **schéma canonique**, sans exception.
    - Si le morceau **n'a pas encore** de projet → le créer :
-     - une **page projet** dans la base « Projects » (statut *In progress*) ;
+     - une **page projet** dans la base « Projects » (statut *In progress*),
+       avec les champs de difficulté (`Niveau morceau (D)`, `Source niveau`,
+       `Palier`, `Difficulté relative`, `Durée estimée`, `Date début`…) ;
      - une **base dédiée au morceau** avec le schéma canonique complet
        (`Composante`, `Progression`, `Priorité`, `Ordre`, `Techniques`,
        `Tempo actuel/cible`, `Doigtés`, `Observations`, `Dernière séance`,
@@ -100,21 +114,26 @@ dans le workspace (voir `references/example-prelude-xv.md`).
    - Ajouter une page « 📖 Guide du projet » expliquant la structure (réutiliser
      le gabarit de l'exemple existant).
 
-5. **Contrôle de fidélité** : avant d'écrire, passer le découpage à la **grille
+6. **Contrôle de fidélité** : avant d'écrire, passer le découpage à la **grille
    d'auto-contrôle** de `references/neuroscience.md` (faiblesses d'abord ?
    chunking pour l'encodage ? interférence rétroactive évitée dans l'ordre des
-   passages ? composantes correctes ?). Corriger si un point échoue.
-6. **Ne jamais** écrire dans Notion sans validation du découpage à l'étape 3
-   (action difficilement réversible). Confirmer le résultat avec les URLs créées.
+   passages ? composantes correctes ? curseurs cohérents avec le palier `R` ?).
+   Corriger si un point échoue.
+7. **Ne jamais** écrire dans Notion sans validation (du **palier/durée estimée**
+   et du **découpage**) à l'étape 4 — action difficilement réversible. Mettre à
+   jour la page **« Profil pratiquant »** (`Date début`) et confirmer les URLs.
 
 ---
 
 ## Workflow PLANNING — alimenter l'agent de planification hebdomadaire
 
 L'agent de planification hebdomadaire doit pouvoir, **pour n'importe quel
-instrument** : (a) lire l'état d'avancement dans Notion, (b) en déduire des
-séances structurées conformes aux principes de Gebrian, (c) réécrire les dates
-de pratique dans Notion (et, en option, créer les événements Google Calendar).
+instrument** : (a) lire l'état d'avancement **et le palier de difficulté** dans
+Notion, (b) en déduire des séances structurées conformes aux principes de
+Gebrian **et calibrées par le palier** (`references/difficulty-assessment.md`),
+(c) réécrire les dates de pratique dans Notion (et, en option, créer les
+événements Google Calendar), (d) **ré-évaluer régulièrement** la vélocité et le
+niveau, et recalibrer le palier (mise à jour de la page « Profil pratiquant »).
 
 Tout est spécifié dans :
 
@@ -128,6 +147,9 @@ Tout est spécifié dans :
   séparé → ensemble → reconnexion → pratique variable → montée en tempo),
   pauses (micro-pauses + 5 min / 25–30 min), pratique mentale, et le **format
   de sortie** d'un plan de semaine.
+- `references/difficulty-assessment.md` — **calibration par la difficulté** :
+  comment le palier `R` règle les curseurs du plan, et la **boucle de
+  ré-évaluation** (vélocité, recalibrage, mise à jour du niveau `L`).
 
 Règle d'or pour la cohérence : le plan généré doit **refléter ce qui existe
 déjà dans Notion** (mêmes passages, mêmes composantes MG/MD/ME, mêmes chunks)
@@ -140,6 +162,7 @@ et faire progresser chaque passage le long de
 
 - `references/neuroscience.md` — **le « pourquoi »** : mécanismes neuro, philosophie pédagogique, **grille d'auto-contrôle en 10 points**.
 - `references/molly-principles.md` — principes & stratégies de Gebrian (condensé actionnable).
+- `references/difficulty-assessment.md` — **évaluation de la difficulté du morceau & du niveau du pratiquant**, et comment ils règlent les curseurs de la méthode + boucle de ré-évaluation.
 - `references/casares-decoupage.md` — méthode de découpage de Casares.
 - `references/instrument-profiles.md` — composantes & pratique variable par famille d'instrument.
 - `references/notion-contract.md` — schéma Notion canonique + opérations de lecture/écriture.

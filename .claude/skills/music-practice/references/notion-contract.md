@@ -10,19 +10,40 @@ dates). Utiliser les outils MCP `notion-search`, `notion-fetch`,
 > récupérer le schéma et les `data_source_id` à jour (les IDs ci-dessous sont
 > ceux constatés ; ils peuvent évoluer — re-vérifier).
 
-## Modèle à deux niveaux (existant)
+## Modèle à trois niveaux
 
 1. **Base « Projects »** — un projet de haut niveau par morceau.
    - DB : `https://app.notion.com/p/c5f6dd5308a14e63a28beb6ea02b3f2e`
    - data source : `collection://3341dd3f-1852-4666-a64d-532e3bd7ae00`
-   - Champs utiles : `Project name` (title), `Status` (ex. *In progress*),
+   - Champs existants : `Project name` (title), `Status` (ex. *In progress*),
      `Completion`, `Dates`, `Tasks`.
+   - **Champs de difficulté à ajouter** (cf. `difficulty-assessment.md`) :
+     `Niveau morceau (D)` (number 1–10), `Source niveau` (select : ABRSM/Trinity,
+     RCM, Henle, Conservatoire, A Dozen a Day, Le Bach à nos jours, Suzuki,
+     Autre), `Référence` (text, ex. « ABRSM G6 list A »), `Palier` (select :
+     Confort, Cible, Étirement, Étirement fort), `Difficulté relative (R)`
+     (number), `Durée estimée (h)` (number), `Durée réelle (h)` (number),
+     `Date début` (date), `Date maîtrise` (date), `Vélocité` (number).
    - Exemple : page « 🎹 Prelude XV ».
 
 2. **Base dédiée au morceau** — les passages et leur suivi détaillé.
    - Exemple « Prélude XV » : DB `fe26f568-2704-4c04-b397-2cb52d7ed7ee`,
      data source `collection://5e993a84-a908-4049-a878-bae06ead0f33`.
    - Une base **par morceau**.
+
+3. **Page « Profil pratiquant »** — le niveau du joueur et sa courbe d'apprentissage.
+   - Un objet **unique** (à créer si absent). Contenu :
+     - `Niveau actuel (L)` (number 1–10) **par instrument** (un bloc/ligne par
+       instrument si le joueur en pratique plusieurs) ;
+     - `Instrument` ;
+     - **Historique** des morceaux appris : pour chacun `Niveau (D)` + `Durée
+       réelle (h)` + `Date maîtrise` (peut être une vue filtrée de la base
+       Projects sur `Status = Done`/`Date maîtrise` renseignée, plutôt que
+       re-saisir) ;
+     - **Courbe « heures par niveau »** : dérivée de l'historique, sert à prédire
+       les `Durée estimée` et à situer `L` (cf. `difficulty-assessment.md` §3, §6).
+   - C'est le planner qui met `L` à jour à chaque morceau maîtrisé et à la revue
+     mensuelle ; le SETUP y lit `L` pour calculer `R`.
 
 ## Schéma canonique de la base d'un morceau
 
@@ -90,8 +111,14 @@ DUAL 'Parent').
 
 ## Création d'un projet (SETUP) — séquence
 
+0. **Difficulté & niveau** : lire `L` sur la page « Profil pratiquant » (la
+   créer si absente), estimer `D` puis `R`/`Palier` et la `Durée estimée`
+   (`difficulty-assessment.md`) — **proposer ces valeurs à l'utilisateur pour
+   validation** (mode « auto + validation »).
 1. `notion-create-pages` dans la base **Projects** : page du morceau,
-   `Status = In progress`.
+   `Status = In progress`, + champs de difficulté validés (`Niveau morceau (D)`,
+   `Source niveau`, `Référence`, `Palier`, `Difficulté relative (R)`,
+   `Durée estimée (h)`, `Date début` = aujourd'hui).
 2. `notion-create-database` : la base du morceau (DDL ci-dessus, parent = la page
    créée à l'étape 1). Récupérer le `data_source_id`.
 3. `notion-update-data-source` : ajouter les self-relations `Parent`/`Enfants`.
@@ -138,14 +165,18 @@ planner n'a **pas** de mode dégradé, il lit partout le schéma canonique.
 ## Lecture par le planner (PLANNING) — quoi lire
 
 1. `notion-search` / la base Projects pour la liste des morceaux **actifs**
-   (`Status = In progress`).
-2. Pour chaque morceau, `notion-fetch` sa base de passages, puis lire les pages.
+   (`Status = In progress`) + leurs champs de difficulté (`Palier`,
+   `Difficulté relative (R)`, `Durée estimée/réelle`, `Date début`, `Vélocité`).
+2. Page « Profil pratiquant » : lire `Niveau actuel (L)` (par instrument) et la
+   courbe heures/niveau.
+3. Pour chaque morceau, `notion-fetch` sa base de passages, puis lire les pages.
    Pour chaque **sous-tâche** (entrée avec `Composante` renseignée et `Parent`
    non vide) collecter :
    - `Passage` (via le parent), `Composante`, `Progression`, `Priorité`,
      `Techniques`, `Tempo actuel`, `Tempo cible`, `Ordre`,
      `Dernière séance`, `Prochaine séance`, `Nb séances`, `Observations`.
-3. En déduire l'état pour l'algorithme de `weekly-planning.md`.
+4. En déduire l'état **et le `Palier`** pour `weekly-planning.md` (le palier
+   règle les curseurs ; cf. `difficulty-assessment.md`).
 
 ## Réécriture par le planner — après avoir planifié / après une séance
 
@@ -157,6 +188,13 @@ Via `notion-update-page` sur chaque sous-tâche travaillée :
   (À travailler → En travail → Fluide → Maîtrisé) ;
 - `Tempo actuel` ← nouveau BPM atteint, le cas échéant ;
 - `Observations` ← note brève (méthode utilisée, point bloquant).
+
+**Ré-évaluation (cf. `difficulty-assessment.md` §6)** — sur la page Projects du
+morceau et la page « Profil pratiquant » :
+- `Vélocité` ← mesurée (séances→`Fluide`, % passages avancés vs `Durée estimée`) ;
+- `Palier` / `Difficulté relative (R)` ← recalibrés si vélocité <0,7× ou >1,3× ;
+- à la maîtrise du morceau : `Status = Done`, `Date maîtrise`, `Durée réelle (h)` ;
+  puis recalcul de la courbe heures/niveau et **mise à jour de `Niveau actuel (L)`**.
 
 > Le planner **ne crée pas** de nouveaux passages ; il consomme le découpage
 > existant. La création/modification du découpage relève du workflow SETUP.

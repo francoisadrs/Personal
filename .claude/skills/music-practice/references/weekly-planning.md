@@ -10,7 +10,17 @@ l'instrument**.
 - Jours et durée disponibles par jour (ex. 5 j × 45 min).
 - Échéances éventuelles (concert/examen) → si concert : viser **mémorisation 6
   semaines avant**, et densifier l'interleaving en performance simulée.
-- Morceaux actifs (`Status = In progress` dans Projects).
+- Morceaux actifs (`Status = In progress` dans Projects) **et leur `Palier`**.
+
+## Étape 0 — Calibrer par le palier de difficulté
+Lire le `Palier` (Confort / Cible / Étirement / Étirement fort) de chaque morceau
+(`difficulty-assessment.md` §5) et en déduire les **curseurs** du plan : taille
+des chunks, % de surapprentissage, moment du passage blocked→serial→interleaved,
+vitesse de montée en tempo, nb de revisites/jour, espacement, fréquence de
+pratique mentale, et surtout le **nombre de passages neufs ouverts en parallèle**
+(faible en Étirement). Le délai de mémorisation avant concert suit aussi le
+palier (3–4 / 6 / 8+ semaines). En l'absence de palier, le **calculer** d'abord
+(D, L → R) ou demander validation.
 
 ## Étape 1 — Déterminer les passages « dus » (pratique espacée, ch. 6)
 Pour chaque sous-tâche (passage × composante), calculer s'il est dû cette
@@ -117,6 +127,19 @@ standard, pas un extra : c'est ce qui rend l'espacement et le suivi pilotables.
   et `Progression`/`Tempo actuel` si l'utilisateur signale un progrès
   (`notion-contract.md`).
 - En option, créer les événements Google Calendar.
+
+## Étape 6 — Ré-évaluer & recalibrer (cf. `difficulty-assessment.md` §6)
+- **Chaque revue hebdo** : mesurer la **vélocité** (séances→`Fluide`, % de
+  passages avancés vs `Durée estimée`). Si <0,7× pendant ~2 sem → **monter d'un
+  palier** (chunks plus petits, plus d'espacement, interleaving plus tardif,
+  moins de fronts neufs) et revoir `D` ; si >1,3× → **descendre d'un palier**
+  (accélérer). Écrire `Vélocité`/`Palier` dans Projects.
+- **À chaque morceau maîtrisé** : `Status = Done`, `Date maîtrise`,
+  `Durée réelle` ; recalculer la courbe heures/niveau et **mettre à jour
+  `Niveau actuel (L)`** sur la page « Profil pratiquant » → `R` des morceaux en
+  cours est recalculé.
+- **Garde-fou anti-frustration** : si un morceau en Étirement fort stagne,
+  réduire les fronts ouverts et intercaler un morceau Confort/Cible.
 
 ## Format de sortie d'un plan de semaine
 
