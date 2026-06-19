@@ -70,9 +70,21 @@ Pour un passage donné, suivre l'ordre des composantes du profil :
 5. Quand c'est propre : **pratique variable** + **montée en tempo**
    (`Tempo actuel` → `Tempo cible`) ; mémoire.
 
-### Pratique mentale
-Insérer des blocs de **pratique mentale (~20 min)** quand le temps de jeu est
-court, à la fin d'une séance, ou pour la mémorisation (alterner mental/physique).
+### Pratique mentale (à intégrer systématiquement, ch. 9-10)
+Ce n'est pas optionnel : prévoir de la **pratique mentale (~20 min max/bloc)**
+dans la semaine, en particulier :
+- quand un créneau est court ou sans instrument (transport, pas d'accès au jeu) ;
+- en **clôture de séance** sur un passage neuf (consolide avant le sommeil) ;
+- pour la **mémorisation** : alterner mental/physique, mesure par mesure ;
+- avant un passage difficile : audier le son/justesse voulus avant de jouer.
+Au moins **un bloc mental par semaine** par morceau actif ; davantage à
+l'approche d'un concert.
+
+### Journal de pratique (à produire à chaque séance, Conclusion du livre)
+Le planner alimente le champ `Observations` de Notion **après chaque passage
+travaillé** avec : objectif du moment, méthode utilisée, point bloquant +
+solution trouvée, et « à retravailler la prochaine fois ». C'est une sortie
+standard, pas un extra : c'est ce qui rend l'espacement et le suivi pilotables.
 
 ## Étape 5 — Écrire le plan + mettre à jour Notion
 - Produire le plan (format ci-dessous).
