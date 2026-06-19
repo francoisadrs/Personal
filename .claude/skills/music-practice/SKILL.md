@@ -80,11 +80,18 @@ dans le workspace (voir `references/example-prelude-xv.md`).
    ordre d'apprentissage recommandé (section difficile d'abord). Valider /
    ajuster avec lui.
 
-4. **Créer le projet Notion** selon `references/notion-contract.md` :
-   - Créer une **page projet** dans la base « Projects » (statut *In progress*).
-   - Créer une **base dédiée au morceau** avec le schéma canonique (calqué sur
-     « Prélude XV ») + les champs de planification (`Dernière séance`,
-     `Prochaine séance`, `Nb séances`, `Priorité`, `Ordre`).
+4. **Créer (ou normaliser) le projet Notion** selon
+   `references/notion-contract.md`. **C'est le skill qui impose la structure** :
+   tout projet de morceau suit le **schéma canonique**, sans exception.
+   - Si le morceau **n'a pas encore** de projet → le créer :
+     - une **page projet** dans la base « Projects » (statut *In progress*) ;
+     - une **base dédiée au morceau** avec le schéma canonique complet
+       (`Composante`, `Progression`, `Priorité`, `Ordre`, `Techniques`,
+       `Tempo actuel/cible`, `Doigtés`, `Observations`, `Dernière séance`,
+       `Prochaine séance`, `Nb séances`, `Parent`/`Enfants`).
+   - Si un projet **existe déjà mais n'est pas conforme** (ex. le Prélude XV :
+     propriété `Main`, champs de planif manquants) → le **normaliser** (cf.
+     « Normaliser un projet existant ») au lieu de le contourner.
    - Pour chaque passage : créer **1 passage principal** + **N sous-tâches**
      (une par composante du profil instrument — ex. piano : Main gauche, Main
      droite, Mains ensemble), reliées via `Parent`.

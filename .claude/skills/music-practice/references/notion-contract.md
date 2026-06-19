@@ -26,38 +26,37 @@ dates). Utiliser les outils MCP `notion-search`, `notion-fetch`,
 
 ## Schéma canonique de la base d'un morceau
 
-Champs **existants** dans « Prélude XV » (à conserver tels quels pour la
-compatibilité) :
+> **Principe.** C'est le skill qui définit la structure, pas l'inverse. **Tout
+> projet de morceau doit suivre ce schéma canonique** — y compris les projets
+> déjà créés (ex. Prélude XV), qui doivent être **normalisés** (voir plus bas).
+> On ne dégrade jamais le skill pour s'adapter à une base incomplète : on met la
+> base en conformité.
+
+Schéma **canonique et obligatoire** (toutes ces propriétés font partie du
+standard) :
 
 | Propriété | Type | Valeurs / note |
 |---|---|---|
 | `Passage` | title | nom du passage, ex. « Mesures 13-15 » |
-| `Composante`† | select | couches du profil instrument. Piano : `Main gauche`, `Main droite`, `Mains ensemble` |
+| `Composante` | select | couches du profil instrument. Piano : `Main gauche`, `Main droite`, `Mains ensemble` (cf. `instrument-profiles.md`) |
 | `Progression` | select | `À travailler` (rouge), `En travail` (jaune), `Fluide` (vert), `Maîtrisé` (bleu) |
+| `Priorité` | select | `Rouge`, `Jaune`, `Vert` (méthode R/J/V de Gebrian) |
 | `Techniques` | multi-select | ex. `Arpèges`, `Trilles`, `Gammes`, `Accords`, `Legato`, `Staccato` (adapter au profil) |
 | `Tempo actuel` | number | BPM de travail courant |
 | `Tempo cible` | number | BPM visé |
+| `Ordre` | number | ordre d'apprentissage (section difficile d'abord) |
 | `Doigtés` | text | doigtés critiques |
-| `Observations` | text | difficultés, rappels, métronome |
+| `Observations` | text | journal : difficultés, méthode, métronome, à retravailler |
+| `Dernière séance` | date | date du dernier travail effectif (écrit par le planner) |
+| `Prochaine séance` | date | prochaine date due (calculée par le planner) |
+| `Nb séances` | number | compteur de séances effectuées (schedule espacé) |
 | `Parent` | relation (self) | relie une sous-tâche à son passage principal |
 | `Enfants` | relation (self) | inverse de `Parent` |
 
-† **Note legacy** : dans l'exemple « Prélude XV », cette propriété s'appelle
-**`Main`** (piano). Pour un nouveau morceau d'un autre instrument, utiliser le
-nom générique **`Composante`** avec les options du profil. **Le planner doit
-lire indifféremment `Main` ou `Composante`** = le select qui porte les couches.
-
-Champs **à ajouter** pour activer la planification espacée (recommandé pour tout
-nouveau morceau ; on peut aussi les ajouter à « Prélude XV » via
-`notion-update-data-source`) :
-
-| Propriété | Type | Rôle |
-|---|---|---|
-| `Priorité` | select | `Rouge`, `Jaune`, `Vert` (méthode R/J/V de Gebrian) |
-| `Ordre` | number | ordre d'apprentissage (section difficile d'abord) |
-| `Dernière séance` | date | date du dernier travail effectif (écrit par le planner) |
-| `Prochaine séance` | date | prochaine date due (calculée par le planner) |
-| `Nb séances` | number | compteur de séances effectuées (pour le schedule 3-jours) |
+La propriété de couche s'appelle **`Composante`** (nom uniforme pour que le
+planner la lise de la même façon quel que soit l'instrument) ; seules ses
+**options** changent selon le profil. Un projet existant qui l'appellerait
+autrement (ex. `Main`) doit être renommé lors de la normalisation.
 
 ### DDL pour créer une base de morceau (exemple piano)
 
@@ -113,6 +112,28 @@ DUAL 'Parent').
 6. `notion-create-pages` : page « 📖 Guide du projet » (gabarit dans
    `example-prelude-xv.md`).
 7. Restituer à l'utilisateur les URLs créées.
+
+## Normaliser un projet existant (mise en conformité)
+
+Un projet de morceau déjà présent qui ne suit pas le schéma canonique (ex. le
+**Prélude XV**, qui a la propriété `Main` et n'a pas `Priorité` / `Ordre` /
+`Dernière séance` / `Prochaine séance` / `Nb séances`) doit être **mis en
+conformité avant** d'être planifié. Procédure (toujours **proposer/confirmer
+avec l'utilisateur** d'abord — modification de données existantes) :
+
+1. `notion-fetch` la base pour relire le schéma et le `data_source_id` à jour.
+2. `notion-update-data-source` :
+   - **renommer** la propriété de couche `Main` → `Composante` (les options
+     `Main gauche/droite/ensemble` sont conservées — c'est juste le nom qui
+     s'uniformise) ;
+   - **ajouter** les propriétés manquantes du schéma canonique (`Priorité`,
+     `Ordre`, `Dernière séance`, `Prochaine séance`, `Nb séances`).
+3. Renseigner rétroactivement `Priorité` et `Ordre` sur les passages existants
+   (d'après le découpage), pour que la priorisation du planner fonctionne.
+4. Les vues existantes restent valides ; ajouter la vue manquante au besoin.
+
+Après normalisation, le projet suit la même logique que tout nouveau projet : le
+planner n'a **pas** de mode dégradé, il lit partout le schéma canonique.
 
 ## Lecture par le planner (PLANNING) — quoi lire
 

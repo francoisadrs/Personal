@@ -20,10 +20,12 @@ l'utilisateur + *Practice Plan* de Manuel Casares.
 Vues : **Tableau de bord** (board), **Passages principaux** (table, filtre
 `Parent` is_empty), **Vue détaillée** (table).
 
-> Pour un nouveau morceau d'un autre instrument : renommer `Main` → `Composante`
-> et adapter les options/techniques au profil (`instrument-profiles.md`), et
-> ajouter les champs de planification (`Priorité`, `Ordre`, `Dernière séance`,
-> `Prochaine séance`, `Nb séances`).
+> ⚠️ Ce schéma observé **n'est pas encore conforme** au standard du skill : il
+> faut **normaliser** le Prélude XV (renommer `Main` → `Composante` ; ajouter
+> `Priorité`, `Ordre`, `Dernière séance`, `Prochaine séance`, `Nb séances`) — cf.
+> `notion-contract.md` → « Normaliser un projet existant ». Le Prélude XV reste
+> la référence de **contenu/structure** (passages + sous-tâches + vues + Guide),
+> mais ses **propriétés** doivent suivre la logique du skill, comme tout projet.
 
 ## Découpage de Casares (à transcrire en passages)
 Ordre d'apprentissage **section difficile d'abord** :

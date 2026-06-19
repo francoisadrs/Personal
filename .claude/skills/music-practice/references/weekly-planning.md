@@ -26,12 +26,11 @@ semaine selon `Progression`, `Dernière séance` et `Nb séances` :
 Un passage est **dû** si `Dernière séance` + intervalle ≤ jour planifié. Les
 nouveaux et les Rouges sont toujours prioritaires.
 
-**Repli pour projet « legacy »** (ex. le Prélude XV existant, sans les champs de
-planification et avec la propriété `Main` au lieu de `Composante`) : si
-`Dernière séance` / `Nb séances` / `Priorité` sont absents, planifier à partir
-de la seule `Progression` (table ci-dessus) et **proposer d'ajouter ces champs**
-à la base via `notion-update-data-source` pour activer le vrai suivi espacé. Lire
-la propriété de couche qu'elle s'appelle `Main` ou `Composante`.
+**Projet non conforme au schéma canonique ?** (ex. le Prélude XV existant, avec
+`Main` au lieu de `Composante` et sans `Priorité`/`Dernière séance`/…) → **le
+normaliser d'abord** (cf. `notion-contract.md` → « Normaliser un projet
+existant »), puis planifier. Le planner n'a **pas de mode dégradé** : tous les
+projets de morceau suivent la même logique du skill.
 
 ## Étape 2 — Prioriser (R/J/V + difficile d'abord)
 Trier les passages dus par : `Priorité` **Rouge → Jaune → Vert**, puis par
