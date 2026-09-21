@@ -63,16 +63,16 @@
 </g>
 <g id="Chatbar/idle">
 <rect x="16" y="744" width="358" height="56" rx="28" fill="#272829"/>
-<g id="PlusButton"><circle cx="44" cy="772" r="16" fill="#333435"/><path d="M 37.5 772 h 13 M 44 765.5 v 13" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/></g>
-<text x="70" y="778" font-family="Open Sans" font-weight="400" font-size="16" fill="#A3A9AB">Message…</text>
-<g id="Button/dictation"><rect x="302.6" y="763.5" width="6.8" height="11.049999999999999" rx="3.4" fill="none" stroke="#A3A9AB" stroke-width="1.8"/>
-<path d="M 299.625 772.85 v 1.275 a 6.375 6.375 0 0 0 12.75 0 v -1.275" fill="none" stroke="#A3A9AB" stroke-width="1.8" stroke-linecap="round"/>
-<path d="M 306 780.5 v 2.55" stroke="#A3A9AB" stroke-width="1.8" stroke-linecap="round"/></g>
-<g id="Button/voice"><circle cx="350" cy="772" r="20" fill="url(#grad-primary)"/>
-<path d="M 343.5 768 V 776" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/>
-<path d="M 347.8 764 V 780" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/>
-<path d="M 352.2 766.5 V 777.5" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/>
-<path d="M 356.5 769 V 775" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/></g>
+<g id="PlusButton"><circle cx="40" cy="772" r="16" fill="#333435"/><path d="M 33.5 772 h 13 M 40 765.5 v 13" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/></g>
+<text x="68" y="778" font-family="Open Sans" font-weight="400" font-size="16" fill="#A3A9AB">Message…</text>
+<g id="Button/dictation"><rect x="298.6" y="763.5" width="6.8" height="11.049999999999999" rx="3.4" fill="none" stroke="#A3A9AB" stroke-width="1.8"/>
+<path d="M 295.625 772.85 v 1.275 a 6.375 6.375 0 0 0 12.75 0 v -1.275" fill="none" stroke="#A3A9AB" stroke-width="1.8" stroke-linecap="round"/>
+<path d="M 302 780.5 v 2.55" stroke="#A3A9AB" stroke-width="1.8" stroke-linecap="round"/></g>
+<g id="Button/voice"><circle cx="346" cy="772" r="20" fill="url(#grad-primary)"/>
+<path d="M 339.5 768 V 776" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/>
+<path d="M 343.8 764 V 780" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/>
+<path d="M 348.2 766.5 V 777.5" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/>
+<path d="M 352.5 769 V 775" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/></g>
 </g>
 <rect id="HomeIndicator" x="125" y="831" width="140" height="5" rx="2.5" fill="#FFFFFF" fill-opacity="0.3"/>
 </g>
@@ -134,16 +134,16 @@
 </g></g>
 <g id="Chatbar/idle 2">
 <rect x="16" y="744" width="358" height="56" rx="28" fill="#272829"/>
-<g id="PlusButton 2"><circle cx="44" cy="772" r="16" fill="#333435"/><path d="M 37.5 772 h 13 M 44 765.5 v 13" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/></g>
-<text x="70" y="778" font-family="Open Sans" font-weight="400" font-size="16" fill="#A3A9AB">Message…</text>
-<g id="Button/dictation 2"><rect x="302.6" y="763.5" width="6.8" height="11.049999999999999" rx="3.4" fill="none" stroke="#A3A9AB" stroke-width="1.8"/>
-<path d="M 299.625 772.85 v 1.275 a 6.375 6.375 0 0 0 12.75 0 v -1.275" fill="none" stroke="#A3A9AB" stroke-width="1.8" stroke-linecap="round"/>
-<path d="M 306 780.5 v 2.55" stroke="#A3A9AB" stroke-width="1.8" stroke-linecap="round"/></g>
-<g id="Button/voice 2"><circle cx="350" cy="772" r="20" fill="url(#grad-primary)"/>
-<path d="M 343.5 768 V 776" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/>
-<path d="M 347.8 764 V 780" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/>
-<path d="M 352.2 766.5 V 777.5" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/>
-<path d="M 356.5 769 V 775" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/></g>
+<g id="PlusButton 2"><circle cx="40" cy="772" r="16" fill="#333435"/><path d="M 33.5 772 h 13 M 40 765.5 v 13" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/></g>
+<text x="68" y="778" font-family="Open Sans" font-weight="400" font-size="16" fill="#A3A9AB">Message…</text>
+<g id="Button/dictation 2"><rect x="298.6" y="763.5" width="6.8" height="11.049999999999999" rx="3.4" fill="none" stroke="#A3A9AB" stroke-width="1.8"/>
+<path d="M 295.625 772.85 v 1.275 a 6.375 6.375 0 0 0 12.75 0 v -1.275" fill="none" stroke="#A3A9AB" stroke-width="1.8" stroke-linecap="round"/>
+<path d="M 302 780.5 v 2.55" stroke="#A3A9AB" stroke-width="1.8" stroke-linecap="round"/></g>
+<g id="Button/voice 2"><circle cx="346" cy="772" r="20" fill="url(#grad-primary)"/>
+<path d="M 339.5 768 V 776" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/>
+<path d="M 343.8 764 V 780" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/>
+<path d="M 348.2 766.5 V 777.5" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/>
+<path d="M 352.5 769 V 775" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/></g>
 </g>
 <rect id="HomeIndicator 2" x="125" y="831" width="140" height="5" rx="2.5" fill="#FFFFFF" fill-opacity="0.3"/>
 </g>
@@ -375,67 +375,67 @@
 <text x="16" y="140" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">Repos — dictée + mode vocal</text>
 <g id="Chatbar/idle 3">
 <rect x="16" y="150" width="358" height="56" rx="28" fill="#272829"/>
-<g id="PlusButton 3"><circle cx="44" cy="178" r="16" fill="#333435"/><path d="M 37.5 178 h 13 M 44 171.5 v 13" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/></g>
-<text x="70" y="184" font-family="Open Sans" font-weight="400" font-size="16" fill="#A3A9AB">Message…</text>
-<g id="Button/dictation 3"><rect x="302.6" y="169.5" width="6.8" height="11.049999999999999" rx="3.4" fill="none" stroke="#A3A9AB" stroke-width="1.8"/>
-<path d="M 299.625 178.85 v 1.275 a 6.375 6.375 0 0 0 12.75 0 v -1.275" fill="none" stroke="#A3A9AB" stroke-width="1.8" stroke-linecap="round"/>
-<path d="M 306 186.5 v 2.55" stroke="#A3A9AB" stroke-width="1.8" stroke-linecap="round"/></g>
-<g id="Button/voice 3"><circle cx="350" cy="178" r="20" fill="url(#grad-primary)"/>
-<path d="M 343.5 174 V 182" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/>
-<path d="M 347.8 170 V 186" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/>
-<path d="M 352.2 172.5 V 183.5" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/>
-<path d="M 356.5 175 V 181" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/></g>
+<g id="PlusButton 3"><circle cx="40" cy="178" r="16" fill="#333435"/><path d="M 33.5 178 h 13 M 40 171.5 v 13" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/></g>
+<text x="68" y="184" font-family="Open Sans" font-weight="400" font-size="16" fill="#A3A9AB">Message…</text>
+<g id="Button/dictation 3"><rect x="298.6" y="169.5" width="6.8" height="11.049999999999999" rx="3.4" fill="none" stroke="#A3A9AB" stroke-width="1.8"/>
+<path d="M 295.625 178.85 v 1.275 a 6.375 6.375 0 0 0 12.75 0 v -1.275" fill="none" stroke="#A3A9AB" stroke-width="1.8" stroke-linecap="round"/>
+<path d="M 302 186.5 v 2.55" stroke="#A3A9AB" stroke-width="1.8" stroke-linecap="round"/></g>
+<g id="Button/voice 3"><circle cx="346" cy="178" r="20" fill="url(#grad-primary)"/>
+<path d="M 339.5 174 V 182" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/>
+<path d="M 343.8 170 V 186" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/>
+<path d="M 348.2 172.5 V 183.5" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/>
+<path d="M 352.5 175 V 181" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/></g>
 </g>
 <text x="16" y="246" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">Dictée en cours — la voix écrit dans le champ</text>
 <g id="Chatbar/dictating">
 <rect x="16" y="256" width="358" height="56" rx="28" fill="#272829" stroke="#8D8DC8"/>
-<g id="PlusButton 4"><circle cx="44" cy="284" r="16" fill="#333435"/><path d="M 37.5 284 h 13 M 44 277.5 v 13" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/></g>
-<text x="70" y="290" font-family="Open Sans" font-weight="400" font-size="16" fill="#FFFFFF">Texte dicté en cours</text>
-<rect x="196" y="274" width="1.5" height="20" fill="#FFFFFF"/>
-<path d="M 292 281 V 287" stroke="#8D8DC8" stroke-width="2" stroke-linecap="round"/>
-<path d="M 297 278 V 290" stroke="#8D8DC8" stroke-width="2" stroke-linecap="round"/>
-<path d="M 302 275 V 293" stroke="#8D8DC8" stroke-width="2" stroke-linecap="round"/>
-<path d="M 307 278 V 290" stroke="#8D8DC8" stroke-width="2" stroke-linecap="round"/>
-<path d="M 312 281 V 287" stroke="#8D8DC8" stroke-width="2" stroke-linecap="round"/>
-<g id="Button/send"><circle cx="350" cy="284" r="20" fill="url(#grad-primary)"/><path d="M 350 290 V 278 M 345 283 L 350 278 L 355 283" fill="none" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g id="PlusButton 4"><circle cx="40" cy="284" r="16" fill="#333435"/><path d="M 33.5 284 h 13 M 40 277.5 v 13" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/></g>
+<text x="68" y="290" font-family="Open Sans" font-weight="400" font-size="16" fill="#FFFFFF">Texte dicté en cours</text>
+<rect x="194" y="274" width="1.5" height="20" fill="#FFFFFF"/>
+<path d="M 288 281 V 287" stroke="#8D8DC8" stroke-width="2" stroke-linecap="round"/>
+<path d="M 293 278 V 290" stroke="#8D8DC8" stroke-width="2" stroke-linecap="round"/>
+<path d="M 298 275 V 293" stroke="#8D8DC8" stroke-width="2" stroke-linecap="round"/>
+<path d="M 303 278 V 290" stroke="#8D8DC8" stroke-width="2" stroke-linecap="round"/>
+<path d="M 308 281 V 287" stroke="#8D8DC8" stroke-width="2" stroke-linecap="round"/>
+<g id="Button/send"><circle cx="346" cy="284" r="20" fill="url(#grad-primary)"/><path d="M 346 290 V 278 M 341 283 L 346 278 L 351 283" fill="none" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
 </g>
 <text x="16" y="352" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">Saisie — l'envoi devient primaire</text>
 <g id="Chatbar/typing">
 <rect x="16" y="362" width="358" height="56" rx="28" fill="#272829"/>
-<g id="PlusButton 5"><circle cx="44" cy="390" r="16" fill="#333435"/><path d="M 37.5 390 h 13 M 44 383.5 v 13" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/></g>
-<text x="70" y="396" font-family="Open Sans" font-weight="400" font-size="16" fill="#FFFFFF">Texte saisi</text>
-<rect x="150" y="380" width="1.5" height="20" fill="#FFFFFF"/>
-<g id="Button/dictation 4"><rect x="302.6" y="381.5" width="6.8" height="11.049999999999999" rx="3.4" fill="none" stroke="#A3A9AB" stroke-width="1.8"/>
-<path d="M 299.625 390.85 v 1.275 a 6.375 6.375 0 0 0 12.75 0 v -1.275" fill="none" stroke="#A3A9AB" stroke-width="1.8" stroke-linecap="round"/>
-<path d="M 306 398.5 v 2.55" stroke="#A3A9AB" stroke-width="1.8" stroke-linecap="round"/></g>
-<g id="Button/send 2"><circle cx="350" cy="390" r="20" fill="url(#grad-primary)"/><path d="M 350 396 V 384 M 345 389 L 350 384 L 355 389" fill="none" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g id="PlusButton 5"><circle cx="40" cy="390" r="16" fill="#333435"/><path d="M 33.5 390 h 13 M 40 383.5 v 13" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/></g>
+<text x="68" y="396" font-family="Open Sans" font-weight="400" font-size="16" fill="#FFFFFF">Texte saisi</text>
+<rect x="148" y="380" width="1.5" height="20" fill="#FFFFFF"/>
+<g id="Button/dictation 4"><rect x="298.6" y="381.5" width="6.8" height="11.049999999999999" rx="3.4" fill="none" stroke="#A3A9AB" stroke-width="1.8"/>
+<path d="M 295.625 390.85 v 1.275 a 6.375 6.375 0 0 0 12.75 0 v -1.275" fill="none" stroke="#A3A9AB" stroke-width="1.8" stroke-linecap="round"/>
+<path d="M 302 398.5 v 2.55" stroke="#A3A9AB" stroke-width="1.8" stroke-linecap="round"/></g>
+<g id="Button/send 2"><circle cx="346" cy="390" r="20" fill="url(#grad-primary)"/><path d="M 346 396 V 384 M 341 389 L 346 384 L 351 389" fill="none" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
 </g>
 <text x="16" y="458" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">Génération — arrêt disponible</text>
 <g id="Chatbar/generating">
 <rect x="16" y="468" width="358" height="56" rx="28" fill="#272829"/>
-<g id="PlusButton 6" opacity="0.3"><circle cx="44" cy="496" r="16" fill="#333435"/><path d="M 37.5 496 h 13 M 44 489.5 v 13" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/></g>
-<text x="70" y="502" font-family="Open Sans" font-weight="400" font-size="16" fill="#626C72">Génération en cours…</text>
-<g id="Button/stop"><circle cx="350" cy="496" r="20" fill="#FFFFFF"/><rect x="343" y="489" width="14" height="14" rx="4" fill="#1C1B1B"/></g>
+<g id="PlusButton 6" opacity="0.3"><circle cx="40" cy="496" r="16" fill="#333435"/><path d="M 33.5 496 h 13 M 40 489.5 v 13" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/></g>
+<text x="68" y="502" font-family="Open Sans" font-weight="400" font-size="16" fill="#626C72">Génération en cours…</text>
+<g id="Button/stop"><circle cx="346" cy="496" r="20" fill="#FFFFFF"/><rect x="339" y="489" width="14" height="14" rx="4" fill="#1C1B1B"/></g>
 </g>
 <text x="16" y="564" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">Pièce jointe</text>
 <g id="Chatbar/attachment">
 <rect x="16" y="574" width="358" height="88" rx="24" fill="#272829"/>
-<g id="Attachment/chip"><rect x="28" y="584" width="160" height="36" rx="10" fill="#1C1B1B" stroke="#383838"/>
-<rect x="36" y="590" width="24" height="24" rx="6" fill="#1F9D55"/>
-<text x="48" y="606" font-family="Open Sans" font-weight="700" font-size="9" fill="#FFFFFF" text-anchor="middle">XLS</text>
-<text x="68" y="606" font-family="Open Sans" font-weight="700" font-size="11" fill="#FFFFFF">nom-du-fichier.xlsx</text>
-<circle cx="188" cy="586" r="8" fill="#1C1B1B" stroke="#383838"/>
-<path d="M 185 583 l 6 6 M 191 583 l -6 6" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/></g>
-<g id="PlusButton 7"><circle cx="44" cy="638" r="16" fill="#333435"/><path d="M 37.5 638 h 13 M 44 631.5 v 13" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/></g>
-<text x="70" y="644" font-family="Open Sans" font-weight="400" font-size="16" fill="#A3A9AB">Message…</text>
-<g id="Button/dictation 5"><rect x="302.6" y="629.5" width="6.8" height="11.049999999999999" rx="3.4" fill="none" stroke="#A3A9AB" stroke-width="1.8"/>
-<path d="M 299.625 638.85 v 1.275 a 6.375 6.375 0 0 0 12.75 0 v -1.275" fill="none" stroke="#A3A9AB" stroke-width="1.8" stroke-linecap="round"/>
-<path d="M 306 646.5 v 2.55" stroke="#A3A9AB" stroke-width="1.8" stroke-linecap="round"/></g>
-<g id="Button/voice 4"><circle cx="350" cy="638" r="20" fill="url(#grad-primary)"/>
-<path d="M 343.5 634 V 642" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/>
-<path d="M 347.8 630 V 646" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/>
-<path d="M 352.2 632.5 V 643.5" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/>
-<path d="M 356.5 635 V 641" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/></g>
+<g id="Attachment/chip"><rect x="24" y="584" width="160" height="36" rx="10" fill="#1C1B1B" stroke="#383838"/>
+<rect x="32" y="590" width="24" height="24" rx="6" fill="#1F9D55"/>
+<text x="44" y="606" font-family="Open Sans" font-weight="700" font-size="9" fill="#FFFFFF" text-anchor="middle">XLS</text>
+<text x="64" y="606" font-family="Open Sans" font-weight="700" font-size="11" fill="#FFFFFF">nom-du-fichier.xlsx</text>
+<circle cx="184" cy="586" r="8" fill="#1C1B1B" stroke="#383838"/>
+<path d="M 181 583 l 6 6 M 187 583 l -6 6" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/></g>
+<g id="PlusButton 7"><circle cx="40" cy="638" r="16" fill="#333435"/><path d="M 33.5 638 h 13 M 40 631.5 v 13" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/></g>
+<text x="68" y="644" font-family="Open Sans" font-weight="400" font-size="16" fill="#A3A9AB">Message…</text>
+<g id="Button/dictation 5"><rect x="298.6" y="629.5" width="6.8" height="11.049999999999999" rx="3.4" fill="none" stroke="#A3A9AB" stroke-width="1.8"/>
+<path d="M 295.625 638.85 v 1.275 a 6.375 6.375 0 0 0 12.75 0 v -1.275" fill="none" stroke="#A3A9AB" stroke-width="1.8" stroke-linecap="round"/>
+<path d="M 302 646.5 v 2.55" stroke="#A3A9AB" stroke-width="1.8" stroke-linecap="round"/></g>
+<g id="Button/voice 4"><circle cx="346" cy="638" r="20" fill="url(#grad-primary)"/>
+<path d="M 339.5 634 V 642" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/>
+<path d="M 343.8 630 V 646" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/>
+<path d="M 348.2 632.5 V 643.5" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/>
+<path d="M 352.5 635 V 641" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/></g>
 </g></g>
 </g>
 </svg>
