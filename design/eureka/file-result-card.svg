@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="740" height="900" viewBox="0 0 740 900" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="grad-cta" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#00F9FF"/>
+    <stop offset="1" stop-color="#7E9DEE"/>
+  </linearGradient>
+  <linearGradient id="grad-brand-avatar" gradientUnits="userSpaceOnUse" x1="40" y1="748" x2="72" y2="748">
+    <stop offset="0" stop-color="#00F9FF"/>
+    <stop offset="0.5" stop-color="#818BFD"/>
+    <stop offset="1" stop-color="#EF7AC5"/>
+  </linearGradient>
+</defs>
+
+<rect id="Board background" x="0" y="0" width="740" height="900" fill="#1C1B1B"/>
+
+<text id="Section title" x="40" y="40" font-family="Open Sans" font-weight="700" font-size="11" fill="#4A5055">FILE RESULT — OUVRIR LE FICHIER</text>
+
+<!-- ============ 1. Default ============ -->
+<text id="Label default" x="40" y="76" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">Card/file — default</text>
+<g id="Card/file/default">
+  <rect x="40" y="86" width="600" height="80" rx="12" fill="#272829" stroke="#383838" stroke-width="1"/>
+  <g id="Badge/XLS">
+    <rect x="56" y="106" width="40" height="40" rx="10" fill="#1F9D55"/>
+    <text x="76" y="130" font-family="Open Sans" font-weight="700" font-size="11" fill="#FFFFFF" text-anchor="middle">XLS</text>
+  </g>
+  <text id="Filename" x="108" y="120" font-family="Open Sans" font-weight="700" font-size="13" fill="#FFFFFF">Comparaison_specs_v1.xlsx</text>
+  <text id="Meta" x="108" y="141" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">Excel · 860 KB · créé à l'instant</text>
+  <g id="Button/primary">
+    <rect x="468" y="108" width="156" height="36" rx="8" fill="url(#grad-cta)"/>
+    <text x="546" y="130" font-family="Open Sans" font-weight="700" font-size="13" fill="#1C1B1B" text-anchor="middle">Ouvrir le fichier</text>
+  </g>
+</g>
+
+<!-- ============ 2. Two actions ============ -->
+<text id="Label two actions" x="40" y="202" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">Card/file — deux actions</text>
+<g id="Card/file/two-actions">
+  <rect x="40" y="212" width="600" height="80" rx="12" fill="#272829" stroke="#383838" stroke-width="1"/>
+  <g id="Badge/XLS 2">
+    <rect x="56" y="232" width="40" height="40" rx="10" fill="#1F9D55"/>
+    <text x="76" y="256" font-family="Open Sans" font-weight="700" font-size="11" fill="#FFFFFF" text-anchor="middle">XLS</text>
+  </g>
+  <text id="Filename 2" x="108" y="246" font-family="Open Sans" font-weight="700" font-size="13" fill="#FFFFFF">Comparaison_specs_v1.xlsx</text>
+  <text id="Meta 2" x="108" y="267" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">Excel · 860 KB · 42 spécifications</text>
+  <g id="Button/ghost">
+    <rect x="346" y="234" width="110" height="36" rx="8" fill="none" stroke="#383838" stroke-width="1"/>
+    <text x="401" y="256" font-family="Open Sans" font-weight="400" font-size="13" fill="#FFFFFF" text-anchor="middle">Télécharger</text>
+  </g>
+  <g id="Button/primary 2">
+    <rect x="468" y="234" width="156" height="36" rx="8" fill="url(#grad-cta)"/>
+    <text x="546" y="256" font-family="Open Sans" font-weight="700" font-size="13" fill="#1C1B1B" text-anchor="middle">Ouvrir le fichier</text>
+  </g>
+</g>
+
+<!-- ============ 3. PDF ============ -->
+<text id="Label pdf" x="40" y="328" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">Card/file — variante PDF</text>
+<g id="Card/file/pdf">
+  <rect x="40" y="338" width="600" height="80" rx="12" fill="#272829" stroke="#383838" stroke-width="1"/>
+  <g id="Badge/PDF">
+    <rect x="56" y="358" width="40" height="40" rx="10" fill="#E5484D"/>
+    <text x="76" y="382" font-family="Open Sans" font-weight="700" font-size="11" fill="#FFFFFF" text-anchor="middle">PDF</text>
+  </g>
+  <text id="Filename 3" x="108" y="372" font-family="Open Sans" font-weight="700" font-size="13" fill="#FFFFFF">Rapport_comparaison.pdf</text>
+  <text id="Meta 3" x="108" y="393" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">PDF · 1,2 Mo · 8 pages</text>
+  <g id="Button/primary 3">
+    <rect x="468" y="360" width="156" height="36" rx="8" fill="url(#grad-cta)"/>
+    <text x="546" y="382" font-family="Open Sans" font-weight="700" font-size="13" fill="#1C1B1B" text-anchor="middle">Ouvrir le fichier</text>
+  </g>
+</g>
+
+<!-- ============ 4. Creating ============ -->
+<text id="Label creating" x="40" y="454" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">Card/file — création en cours</text>
+<g id="Card/file/creating">
+  <rect x="40" y="464" width="600" height="80" rx="12" fill="#272829" stroke="#383838" stroke-width="1"/>
+  <g id="Badge/loading">
+    <rect x="56" y="484" width="40" height="40" rx="10" fill="#333435"/>
+    <circle cx="76" cy="504" r="7" fill="none" stroke="#FFFFFF" stroke-opacity="0.15" stroke-width="2"/>
+    <path d="M 76 497 A 7 7 0 0 1 83 504" fill="none" stroke="#8D8DC8" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <text id="Filename 4" x="108" y="498" font-family="Open Sans" font-weight="700" font-size="13" fill="#FFFFFF">Comparaison_specs_v1.xlsx</text>
+  <text id="Meta 4" x="108" y="519" font-family="Open Sans" font-style="italic" font-weight="400" font-size="12" fill="#8D8DC8">Création du fichier…</text>
+  <g id="Button/primary/disabled" opacity="0.25">
+    <rect x="468" y="486" width="156" height="36" rx="8" fill="url(#grad-cta)"/>
+    <text x="546" y="508" font-family="Open Sans" font-weight="700" font-size="13" fill="#1C1B1B" text-anchor="middle">Ouvrir le fichier</text>
+  </g>
+</g>
+
+<!-- ============ 5. Error ============ -->
+<text id="Label error" x="40" y="580" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">Card/file — erreur</text>
+<g id="Card/file/error">
+  <rect x="40" y="590" width="600" height="96" rx="12" fill="#2A1F21" stroke="#FF5A5F" stroke-width="1"/>
+  <g id="Icon/Warning">
+    <path d="M 66 632 L 76 614 L 86 632 Z" fill="none" stroke="#FF5A5F" stroke-width="1.6666" stroke-linejoin="round"/>
+    <rect x="75.2" y="621" width="1.6" height="6" rx="0.8" fill="#FF5A5F"/>
+    <circle cx="76" cy="629.6" r="0.9" fill="#FF5A5F"/>
+  </g>
+  <text id="Error title" x="100" y="624" font-family="Open Sans" font-weight="700" font-size="14" fill="#FFFFFF">Le fichier n'a pas pu être créé</text>
+  <text id="Error desc" x="100" y="646" font-family="Open Sans" font-weight="400" font-size="12" fill="#A3A9AB">Le connecteur Excel n'a pas répondu. Réessayez ou contactez le support.</text>
+  <g id="Button/primary/retry">
+    <rect x="516" y="620" width="108" height="36" rx="8" fill="url(#grad-cta)"/>
+    <text x="570" y="642" font-family="Open Sans" font-weight="700" font-size="13" fill="#1C1B1B" text-anchor="middle">Réessayer</text>
+  </g>
+</g>
+
+<!-- ============ 6. In conversation ============ -->
+<text id="Label in-thread" x="40" y="722" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">Message/Answer + Card/file</text>
+<g id="Message/file-created">
+  <g id="Avatar/eureka (swap for logo_loop)">
+    <rect x="40" y="732" width="32" height="32" rx="10" fill="#272829"/>
+    <path d="M 54.5 738 C 56.88 742.69 58.31 744.12 63 746.5 C 58.31 748.88 56.88 750.31 54.5 755 C 52.12 750.31 50.69 748.88 46 746.5 C 50.69 744.12 52.12 742.69 54.5 738 Z" fill="url(#grad-brand-avatar)"/>
+    <path d="M 62 750.5 C 62.98 752.43 63.57 753.02 65.5 754 C 63.57 754.98 62.98 755.57 62 757.5 C 61.02 755.57 60.43 754.98 58.5 754 C 60.43 753.02 61.02 752.43 62 750.5 Z" fill="url(#grad-brand-avatar)"/>
+  </g>
+  <text id="Answer line" x="84" y="746" font-family="Open Sans" font-weight="400" font-size="15" fill="#FFFFFF">J'ai généré le fichier de comparaison. Il est prêt à être ouvert.</text>
+  <g id="Card/file/in-thread">
+    <rect x="84" y="762" width="600" height="80" rx="12" fill="#272829" stroke="#383838" stroke-width="1"/>
+    <g id="Badge/XLS 3">
+      <rect x="100" y="782" width="40" height="40" rx="10" fill="#1F9D55"/>
+      <text x="120" y="806" font-family="Open Sans" font-weight="700" font-size="11" fill="#FFFFFF" text-anchor="middle">XLS</text>
+    </g>
+    <text id="Filename 5" x="152" y="796" font-family="Open Sans" font-weight="700" font-size="13" fill="#FFFFFF">Comparaison_specs_v1.xlsx</text>
+    <text id="Meta 5" x="152" y="817" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">Excel · 860 KB · 42 spécifications</text>
+    <g id="Button/primary 4">
+      <rect x="512" y="784" width="156" height="36" rx="8" fill="url(#grad-cta)"/>
+      <text x="590" y="806" font-family="Open Sans" font-weight="700" font-size="13" fill="#1C1B1B" text-anchor="middle">Ouvrir le fichier</text>
+    </g>
+  </g>
+</g>
+</svg>
