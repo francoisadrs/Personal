@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="740" height="1380" viewBox="0 0 740 1380" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="grad-primary" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#00F9FF"/>
+    <stop offset="1" stop-color="#7E9DEE"/>
+  </linearGradient>
+  <linearGradient id="grad-accent" gradientUnits="userSpaceOnUse" x1="40" y1="0" x2="72" y2="0">
+    <stop offset="0" stop-color="#00F9FF"/>
+    <stop offset="0.5" stop-color="#818BFD"/>
+    <stop offset="1" stop-color="#EF7AC5"/>
+  </linearGradient>
+</defs>
+
+<rect id="Board background" x="0" y="0" width="740" height="1380" fill="#1C1B1B"/>
+
+<text id="Section title file" x="40" y="40" font-family="Open Sans" font-weight="700" font-size="11" fill="#4A5055">CARD / FILE RESULT — ÉTATS</text>
+
+<!-- ============ 1. File — default ============ -->
+<text id="Label file default" x="40" y="76" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">Défaut</text>
+<g id="Card/file/default">
+  <rect x="40" y="86" width="600" height="80" rx="12" fill="#272829" stroke="#383838" stroke-width="1"/>
+  <g id="Badge/XLS">
+    <rect x="56" y="106" width="40" height="40" rx="10" fill="#1F9D55"/>
+    <text x="76" y="130" font-family="Open Sans" font-weight="700" font-size="11" fill="#FFFFFF" text-anchor="middle">XLS</text>
+  </g>
+  <text id="Filename" x="108" y="120" font-family="Open Sans" font-weight="700" font-size="13" fill="#FFFFFF">nom-du-fichier.xlsx</text>
+  <text id="Meta" x="108" y="141" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">XLSX · 128 Ko</text>
+  <g id="Button/primary">
+    <rect x="468" y="108" width="156" height="36" rx="8" fill="url(#grad-primary)"/>
+    <text x="546" y="130" font-family="Open Sans" font-weight="700" font-size="13" fill="#1C1B1B" text-anchor="middle">Ouvrir le fichier</text>
+  </g>
+</g>
+
+<!-- ============ 2. File — two actions ============ -->
+<text id="Label file two actions" x="40" y="202" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">Deux actions</text>
+<g id="Card/file/two-actions">
+  <rect x="40" y="212" width="600" height="80" rx="12" fill="#272829" stroke="#383838" stroke-width="1"/>
+  <g id="Badge/XLS 2">
+    <rect x="56" y="232" width="40" height="40" rx="10" fill="#1F9D55"/>
+    <text x="76" y="256" font-family="Open Sans" font-weight="700" font-size="11" fill="#FFFFFF" text-anchor="middle">XLS</text>
+  </g>
+  <text id="Filename 2" x="108" y="246" font-family="Open Sans" font-weight="700" font-size="13" fill="#FFFFFF">nom-du-fichier.xlsx</text>
+  <text id="Meta 2" x="108" y="267" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">XLSX · 128 Ko</text>
+  <g id="Button/ghost">
+    <rect x="346" y="234" width="110" height="36" rx="8" fill="none" stroke="#383838" stroke-width="1"/>
+    <text x="401" y="256" font-family="Open Sans" font-weight="400" font-size="13" fill="#FFFFFF" text-anchor="middle">Télécharger</text>
+  </g>
+  <g id="Button/primary 2">
+    <rect x="468" y="234" width="156" height="36" rx="8" fill="url(#grad-primary)"/>
+    <text x="546" y="256" font-family="Open Sans" font-weight="700" font-size="13" fill="#1C1B1B" text-anchor="middle">Ouvrir le fichier</text>
+  </g>
+</g>
+
+<!-- ============ 3. File — PDF ============ -->
+<text id="Label file pdf" x="40" y="328" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">Variante PDF</text>
+<g id="Card/file/pdf">
+  <rect x="40" y="338" width="600" height="80" rx="12" fill="#272829" stroke="#383838" stroke-width="1"/>
+  <g id="Badge/PDF">
+    <rect x="56" y="358" width="40" height="40" rx="10" fill="#E5484D"/>
+    <text x="76" y="382" font-family="Open Sans" font-weight="700" font-size="11" fill="#FFFFFF" text-anchor="middle">PDF</text>
+  </g>
+  <text id="Filename 3" x="108" y="372" font-family="Open Sans" font-weight="700" font-size="13" fill="#FFFFFF">nom-du-fichier.pdf</text>
+  <text id="Meta 3" x="108" y="393" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">PDF · 1,4 Mo</text>
+  <g id="Button/primary 3">
+    <rect x="468" y="360" width="156" height="36" rx="8" fill="url(#grad-primary)"/>
+    <text x="546" y="382" font-family="Open Sans" font-weight="700" font-size="13" fill="#1C1B1B" text-anchor="middle">Ouvrir le fichier</text>
+  </g>
+</g>
+
+<!-- ============ 4. File — creating ============ -->
+<text id="Label file creating" x="40" y="454" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">Création en cours</text>
+<g id="Card/file/creating">
+  <rect x="40" y="464" width="600" height="80" rx="12" fill="#272829" stroke="#383838" stroke-width="1"/>
+  <g id="Badge/loading">
+    <rect x="56" y="484" width="40" height="40" rx="10" fill="#333435"/>
+    <circle cx="76" cy="504" r="7" fill="none" stroke="#FFFFFF" stroke-opacity="0.15" stroke-width="2"/>
+    <path d="M 76 497 A 7 7 0 0 1 83 504" fill="none" stroke="#8D8DC8" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <text id="Filename 4" x="108" y="498" font-family="Open Sans" font-weight="700" font-size="13" fill="#FFFFFF">nom-du-fichier.xlsx</text>
+  <text id="Meta 4" x="108" y="519" font-family="Open Sans" font-style="italic" font-weight="400" font-size="12" fill="#8D8DC8">Création du fichier…</text>
+  <g id="Button/primary/disabled" opacity="0.25">
+    <rect x="468" y="486" width="156" height="36" rx="8" fill="url(#grad-primary)"/>
+    <text x="546" y="508" font-family="Open Sans" font-weight="700" font-size="13" fill="#1C1B1B" text-anchor="middle">Ouvrir le fichier</text>
+  </g>
+</g>
+
+<!-- ============ 5. File — error ============ -->
+<text id="Label file error" x="40" y="580" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">Erreur</text>
+<g id="Card/file/error">
+  <rect x="40" y="590" width="600" height="96" rx="12" fill="#2A1F21" stroke="#FF5A5F" stroke-width="1"/>
+  <g id="Icon/Warning">
+    <path d="M 66 632 L 76 614 L 86 632 Z" fill="none" stroke="#FF5A5F" stroke-width="1.6666" stroke-linejoin="round"/>
+    <rect x="75.2" y="621" width="1.6" height="6" rx="0.8" fill="#FF5A5F"/>
+    <circle cx="76" cy="629.6" r="0.9" fill="#FF5A5F"/>
+  </g>
+  <text id="Error title" x="100" y="624" font-family="Open Sans" font-weight="700" font-size="14" fill="#FFFFFF">Le fichier n'a pas pu être créé</text>
+  <text id="Error desc" x="100" y="646" font-family="Open Sans" font-weight="400" font-size="12" fill="#A3A9AB">Une erreur est survenue. Réessayez ou contactez le support.</text>
+  <g id="Button/primary/retry">
+    <rect x="516" y="620" width="108" height="36" rx="8" fill="url(#grad-primary)"/>
+    <text x="570" y="642" font-family="Open Sans" font-weight="700" font-size="13" fill="#1C1B1B" text-anchor="middle">Réessayer</text>
+  </g>
+</g>
+
+<!-- ============ 6. File — in conversation ============ -->
+<text id="Label file in-thread" x="40" y="722" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">Dans le fil de conversation</text>
+<g id="Message/file-result">
+  <g id="Avatar/assistant">
+    <rect x="40" y="732" width="32" height="32" rx="10" fill="#272829"/>
+    <path d="M 54.5 738 C 56.88 742.69 58.31 744.12 63 746.5 C 58.31 748.88 56.88 750.31 54.5 755 C 52.12 750.31 50.69 748.88 46 746.5 C 50.69 744.12 52.12 742.69 54.5 738 Z" fill="url(#grad-accent)"/>
+    <path d="M 62 750.5 C 62.98 752.43 63.57 753.02 65.5 754 C 63.57 754.98 62.98 755.57 62 757.5 C 61.02 755.57 60.43 754.98 58.5 754 C 60.43 753.02 61.02 752.43 62 750.5 Z" fill="url(#grad-accent)"/>
+  </g>
+  <text id="Answer line" x="84" y="746" font-family="Open Sans" font-weight="400" font-size="15" fill="#FFFFFF">Votre fichier est prêt.</text>
+  <g id="Card/file/in-thread">
+    <rect x="84" y="762" width="600" height="80" rx="12" fill="#272829" stroke="#383838" stroke-width="1"/>
+    <g id="Badge/XLS 3">
+      <rect x="100" y="782" width="40" height="40" rx="10" fill="#1F9D55"/>
+      <text x="120" y="806" font-family="Open Sans" font-weight="700" font-size="11" fill="#FFFFFF" text-anchor="middle">XLS</text>
+    </g>
+    <text id="Filename 5" x="152" y="796" font-family="Open Sans" font-weight="700" font-size="13" fill="#FFFFFF">nom-du-fichier.xlsx</text>
+    <text id="Meta 5" x="152" y="817" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">XLSX · 128 Ko</text>
+    <g id="Button/primary 4">
+      <rect x="512" y="784" width="156" height="36" rx="8" fill="url(#grad-primary)"/>
+      <text x="590" y="806" font-family="Open Sans" font-weight="700" font-size="13" fill="#1C1B1B" text-anchor="middle">Ouvrir le fichier</text>
+    </g>
+  </g>
+</g>
+
+<text id="Section title folder" x="40" y="890" font-family="Open Sans" font-weight="700" font-size="11" fill="#4A5055">CARD / FOLDER RESULT — ÉTATS</text>
+
+<!-- ============ 7. Folder — default ============ -->
+<text id="Label folder default" x="40" y="926" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">Défaut</text>
+<g id="Card/folder/default">
+  <rect x="40" y="936" width="600" height="80" rx="12" fill="#272829" stroke="#383838" stroke-width="1"/>
+  <g id="Badge/folder">
+    <rect x="56" y="956" width="40" height="40" rx="10" fill="#333435"/>
+    <path d="M 67 968 h 5.5 l 2.5 3 h 10 a 2 2 0 0 1 2 2 v 9 a 2 2 0 0 1 -2 2 h -18 a 2 2 0 0 1 -2 -2 v -12 a 2 2 0 0 1 2 -2 z" fill="none" stroke="#A3A9AB" stroke-width="1.6666" stroke-linejoin="round"/>
+  </g>
+  <text id="Foldername" x="108" y="970" font-family="Open Sans" font-weight="700" font-size="13" fill="#FFFFFF">nom-du-dossier</text>
+  <text id="Folder meta" x="108" y="991" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">12 fichiers · 4,2 Mo</text>
+  <g id="Button/primary 5">
+    <rect x="468" y="958" width="156" height="36" rx="8" fill="url(#grad-primary)"/>
+    <text x="546" y="980" font-family="Open Sans" font-weight="700" font-size="13" fill="#1C1B1B" text-anchor="middle">Ouvrir le dossier</text>
+  </g>
+</g>
+
+<!-- ============ 8. Folder — with content preview ============ -->
+<text id="Label folder preview" x="40" y="1052" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">Avec aperçu du contenu</text>
+<g id="Card/folder/preview">
+  <rect x="40" y="1062" width="600" height="120" rx="12" fill="#272829" stroke="#383838" stroke-width="1"/>
+  <g id="Badge/folder 2">
+    <rect x="56" y="1082" width="40" height="40" rx="10" fill="#333435"/>
+    <path d="M 67 1094 h 5.5 l 2.5 3 h 10 a 2 2 0 0 1 2 2 v 9 a 2 2 0 0 1 -2 2 h -18 a 2 2 0 0 1 -2 -2 v -12 a 2 2 0 0 1 2 -2 z" fill="none" stroke="#A3A9AB" stroke-width="1.6666" stroke-linejoin="round"/>
+  </g>
+  <text id="Foldername 2" x="108" y="1096" font-family="Open Sans" font-weight="700" font-size="13" fill="#FFFFFF">nom-du-dossier</text>
+  <text id="Folder meta 2" x="108" y="1117" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">12 fichiers · 4,2 Mo</text>
+  <g id="Button/primary 6">
+    <rect x="468" y="1084" width="156" height="36" rx="8" fill="url(#grad-primary)"/>
+    <text x="546" y="1106" font-family="Open Sans" font-weight="700" font-size="13" fill="#1C1B1B" text-anchor="middle">Ouvrir le dossier</text>
+  </g>
+  <line id="Divider" x1="56" y1="1130" x2="624" y2="1130" stroke="#383838" stroke-width="1"/>
+  <g id="ContentPreview">
+    <g id="Chip/XLS">
+      <rect x="56" y="1140" width="32" height="32" rx="8" fill="#1F9D55"/>
+      <text x="72" y="1160" font-family="Open Sans" font-weight="700" font-size="11" fill="#FFFFFF" text-anchor="middle">XLS</text>
+    </g>
+    <g id="Chip/PDF">
+      <rect x="94" y="1140" width="32" height="32" rx="8" fill="#E5484D"/>
+      <text x="110" y="1160" font-family="Open Sans" font-weight="700" font-size="11" fill="#FFFFFF" text-anchor="middle">PDF</text>
+    </g>
+    <g id="Chip/IMG">
+      <rect x="132" y="1140" width="32" height="32" rx="8" fill="#3A3B3D"/>
+      <text x="148" y="1160" font-family="Open Sans" font-weight="700" font-size="11" fill="#A3A9AB" text-anchor="middle">IMG</text>
+    </g>
+    <text id="Overflow count" x="176" y="1160" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">+ 9 autres fichiers</text>
+  </g>
+</g>
+
+<!-- ============ 9. Folder — in conversation ============ -->
+<text id="Label folder in-thread" x="40" y="1218" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">Dans le fil de conversation</text>
+<g id="Message/folder-result">
+  <g id="Avatar/assistant 2">
+    <rect x="40" y="1228" width="32" height="32" rx="10" fill="#272829"/>
+    <path d="M 54.5 1234 C 56.88 1238.69 58.31 1240.12 63 1242.5 C 58.31 1244.88 56.88 1246.31 54.5 1251 C 52.12 1246.31 50.69 1244.88 46 1242.5 C 50.69 1240.12 52.12 1238.69 54.5 1234 Z" fill="url(#grad-accent)"/>
+    <path d="M 62 1246.5 C 62.98 1248.43 63.57 1249.02 65.5 1250 C 63.57 1250.98 62.98 1251.57 62 1253.5 C 61.02 1251.57 60.43 1250.98 58.5 1250 C 60.43 1249.02 61.02 1248.43 62 1246.5 Z" fill="url(#grad-accent)"/>
+  </g>
+  <text id="Answer line 2" x="84" y="1242" font-family="Open Sans" font-weight="400" font-size="15" fill="#FFFFFF">Votre dossier est prêt.</text>
+  <g id="Card/folder/in-thread">
+    <rect x="84" y="1258" width="600" height="80" rx="12" fill="#272829" stroke="#383838" stroke-width="1"/>
+    <g id="Badge/folder 3">
+      <rect x="100" y="1278" width="40" height="40" rx="10" fill="#333435"/>
+      <path d="M 111 1290 h 5.5 l 2.5 3 h 10 a 2 2 0 0 1 2 2 v 9 a 2 2 0 0 1 -2 2 h -18 a 2 2 0 0 1 -2 -2 v -12 a 2 2 0 0 1 2 -2 z" fill="none" stroke="#A3A9AB" stroke-width="1.6666" stroke-linejoin="round"/>
+    </g>
+    <text id="Foldername 3" x="152" y="1292" font-family="Open Sans" font-weight="700" font-size="13" fill="#FFFFFF">nom-du-dossier</text>
+    <text id="Folder meta 3" x="152" y="1313" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">12 fichiers · 4,2 Mo</text>
+    <g id="Button/primary 7">
+      <rect x="512" y="1280" width="156" height="36" rx="8" fill="url(#grad-primary)"/>
+      <text x="590" y="1302" font-family="Open Sans" font-weight="700" font-size="13" fill="#1C1B1B" text-anchor="middle">Ouvrir le dossier</text>
+    </g>
+  </g>
+</g>
+</svg>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2000" height="1180" viewBox="0 0 2000 1180" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="grad-primary" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#00F9FF"/><stop offset="1" stop-color="#7E9DEE"/></linearGradient><linearGradient id="grad-accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#00F9FF"/><stop offset="0.5" stop-color="#818BFD"/><stop offset="1" stop-color="#EF7AC5"/></linearGradient></defs>
+<rect id="Board background" x="0" y="0" width="2000" height="1180" fill="#161617"/>
+<text x="60" y="48" font-family="Open Sans" font-weight="700" font-size="11" fill="#4A5055">COTES — iPhone 13 / 14 · grille de 4 px</text>
+<text x="140" y="96" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">1 · Accueil — grille générale</text>
+<g transform="translate(140,120)"><rect id="Device/home" x="0" y="0" width="390" height="844" rx="47" fill="#1C1B1B"/>
+<path id="Notch" d="M 114 0 H 276 V 12 A 20 20 0 0 1 256 32 H 134 A 20 20 0 0 1 114 12 Z" fill="#000000"/>
+<g id="StatusBar">
+<text x="54" y="33" font-family="Open Sans" font-weight="700" font-size="15" fill="#FFFFFF" text-anchor="middle">9:41</text>
+<rect x="300" y="24" width="3" height="4" rx="1" fill="#FFFFFF"/>
+<rect x="305" y="22" width="3" height="6" rx="1" fill="#FFFFFF"/>
+<rect x="310" y="20" width="3" height="8" rx="1" fill="#FFFFFF"/>
+<rect x="315" y="18" width="3" height="10" rx="1" fill="#FFFFFF"/>
+<path d="M 324 21.5 A 9 9 0 0 1 336 21.5" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round"/>
+<path d="M 327 25 A 5 5 0 0 1 333 25" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round"/>
+<circle cx="330" cy="27.8" r="1.2" fill="#FFFFFF"/>
+<rect x="344" y="19" width="21" height="11" rx="3" fill="none" stroke="#FFFFFF" stroke-opacity="0.5"/>
+<rect x="346" y="21" width="15" height="7" rx="1.5" fill="#FFFFFF"/>
+<path d="M 367 22.5 v 4" stroke="#FFFFFF" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round"/>
+</g>
+<g id="Header">
+<rect x="16" y="63" width="24" height="24" rx="6" fill="none" stroke="#FFFFFF" stroke-width="1.8"/>
+<path d="M 31 63 V 87" stroke="#FFFFFF" stroke-width="1.8"/>
+<path d="M 195 64 C 198.08 70.072 199.928 71.92 206 75 C 199.928 78.08 198.08 79.928 195 86 C 191.92 79.928 190.072 78.08 184 75 C 190.072 71.92 191.92 70.072 195 64 Z" fill="url(#grad-accent)"/>
+<path d="M 368 76 V 82 A 3 3 0 0 1 365 85 H 353 A 3 3 0 0 1 350 82 V 70 A 3 3 0 0 1 353 67 H 359" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 363.5 65.5 L 367.5 69.5 L 359 78 H 355 V 74 Z" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linejoin="round"/>
+</g>
+<path d="M 195 266 C 203.4 282.56 208.44 287.6 225 296 C 208.44 304.4 203.4 309.44 195 326 C 186.6 309.44 181.56 304.4 165 296 C 181.56 287.6 186.6 282.56 195 266 Z" fill="url(#grad-accent)"/>
+<path d="M 219 308 C 222.36 314.624 224.376 316.64 231 320 C 224.376 323.36 222.36 325.376 219 332 C 215.64 325.376 213.624 323.36 207 320 C 213.624 316.64 215.64 314.624 219 308 Z" fill="url(#grad-accent)"/>
+<text x="195" y="380" font-family="Open Sans" font-weight="400" font-size="22" fill="#FFFFFF" text-anchor="middle">Comment puis-je vous aider ?</text>
+<text x="195" y="406" font-family="Open Sans" font-weight="400" font-size="14" fill="#626C72" text-anchor="middle">Posez votre question ou lancez le mode vocal.</text>
+<g id="SuggestionCard 1">
+<rect x="16" y="448" width="358" height="64" rx="16" fill="#272829" stroke="#383838"/>
+<rect x="32" y="464" width="32" height="32" rx="10" fill="#333435"/>
+<circle cx="48" cy="480" r="7" fill="none" stroke="#A3A9AB" stroke-width="1.8"/>
+<text x="80" y="476" font-family="Open Sans" font-weight="700" font-size="14" fill="#FFFFFF">Poser une question</text>
+<text x="80" y="495" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">Réponse sourcée</text>
+<path d="M 350 475 L 355 480 L 350 485" fill="none" stroke="#626C72" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="SuggestionCard 2">
+<rect x="16" y="520" width="358" height="64" rx="16" fill="#272829" stroke="#383838"/>
+<rect x="32" y="536" width="32" height="32" rx="10" fill="#333435"/>
+<circle cx="48" cy="552" r="7" fill="none" stroke="#A3A9AB" stroke-width="1.8"/>
+<text x="80" y="548" font-family="Open Sans" font-weight="700" font-size="14" fill="#FFFFFF">Analyser un document</text>
+<text x="80" y="567" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">Importer un fichier</text>
+<path d="M 350 547 L 355 552 L 350 557" fill="none" stroke="#626C72" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="SuggestionCard 3">
+<rect x="16" y="592" width="358" height="64" rx="16" fill="#272829" stroke="#383838"/>
+<rect x="32" y="608" width="32" height="32" rx="10" fill="#333435"/>
+<path d="M 43 620.5 V 627.5" stroke="#8D8DC8" stroke-width="2" stroke-linecap="round"/>
+<path d="M 46.3 617 V 631" stroke="#8D8DC8" stroke-width="2" stroke-linecap="round"/>
+<path d="M 49.7 619 V 629" stroke="#8D8DC8" stroke-width="2" stroke-linecap="round"/>
+<path d="M 53 621.5 V 626.5" stroke="#8D8DC8" stroke-width="2" stroke-linecap="round"/>
+<text x="80" y="620" font-family="Open Sans" font-weight="700" font-size="14" fill="#FFFFFF">Démarrer en vocal</text>
+<text x="80" y="639" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">Conversation mains libres</text>
+<path d="M 350 619 L 355 624 L 350 629" fill="none" stroke="#626C72" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="Chatbar/idle">
+<rect x="16" y="744" width="358" height="56" rx="28" fill="#272829"/>
+<g id="PlusButton"><circle cx="40" cy="772" r="16" fill="#333435"/><path d="M 33.5 772 h 13 M 40 765.5 v 13" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/></g>
+<text x="68" y="778" font-family="Open Sans" font-weight="400" font-size="16" fill="#A3A9AB">Message…</text>
+<g id="Button/dictation"><rect x="298.6" y="763.5" width="6.8" height="11.049999999999999" rx="3.4" fill="none" stroke="#A3A9AB" stroke-width="1.8"/>
+<path d="M 295.625 772.85 v 1.275 a 6.375 6.375 0 0 0 12.75 0 v -1.275" fill="none" stroke="#A3A9AB" stroke-width="1.8" stroke-linecap="round"/>
+<path d="M 302 780.5 v 2.55" stroke="#A3A9AB" stroke-width="1.8" stroke-linecap="round"/></g>
+<g id="Button/voice"><circle cx="346" cy="772" r="20" fill="url(#grad-primary)"/>
+<path d="M 339.5 768 V 776" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/>
+<path d="M 343.8 764 V 780" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/>
+<path d="M 348.2 766.5 V 777.5" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/>
+<path d="M 352.5 769 V 775" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/></g>
+</g>
+<rect id="HomeIndicator" x="125" y="831" width="140" height="5" rx="2.5" fill="#FFFFFF" fill-opacity="0.3"/>
+<rect x="16" y="448" width="358" height="64" fill="none" stroke="#FF5C4D" stroke-width="1" stroke-dasharray="3 3"/>
+<rect x="16" y="744" width="358" height="56" fill="none" stroke="#FF5C4D" stroke-width="1" stroke-dasharray="3 3"/>
+<path d="M 0 430 H 16" stroke="#FF5C4D" stroke-width="1"/><path d="M 0 426 v 8 M 16 426 v 8" stroke="#FF5C4D" stroke-width="1"/><g><rect x="-4.0" y="408" width="24" height="16" rx="4" fill="#FF5C4D"/><text x="8.0" y="419.5" font-family="Open Sans" font-weight="700" font-size="9" fill="#FFFFFF" text-anchor="middle">16</text></g>
+<path d="M 16 430 H 374" stroke="#FF5C4D" stroke-width="1"/><path d="M 16 426 v 8 M 374 426 v 8" stroke="#FF5C4D" stroke-width="1"/><g><rect x="180.3" y="422" width="29.4" height="16" rx="4" fill="#FF5C4D"/><text x="195.0" y="433.5" font-family="Open Sans" font-weight="700" font-size="9" fill="#FFFFFF" text-anchor="middle">358</text></g>
+<path d="M 414 0 V 47" stroke="#FF5C4D" stroke-width="1"/><path d="M 410 0 h 8 M 410 47 h 8" stroke="#FF5C4D" stroke-width="1"/><g><rect x="420.0" y="15.5" width="24" height="16" rx="4" fill="#FF5C4D"/><text x="432" y="27.0" font-family="Open Sans" font-weight="700" font-size="9" fill="#FFFFFF" text-anchor="middle">47</text></g>
+<path d="M 414 47 V 103" stroke="#FF5C4D" stroke-width="1"/><path d="M 410 47 h 8 M 410 103 h 8" stroke="#FF5C4D" stroke-width="1"/><g><rect x="420.0" y="67.0" width="24" height="16" rx="4" fill="#FF5C4D"/><text x="432" y="78.5" font-family="Open Sans" font-weight="700" font-size="9" fill="#FFFFFF" text-anchor="middle">56</text></g>
+<path d="M 414 744 V 800" stroke="#FF5C4D" stroke-width="1"/><path d="M 410 744 h 8 M 410 800 h 8" stroke="#FF5C4D" stroke-width="1"/><g><rect x="420.0" y="764.0" width="24" height="16" rx="4" fill="#FF5C4D"/><text x="432" y="775.5" font-family="Open Sans" font-weight="700" font-size="9" fill="#FFFFFF" text-anchor="middle">56</text></g>
+<path d="M 414 800 V 844" stroke="#FF5C4D" stroke-width="1"/><path d="M 410 800 h 8 M 410 844 h 8" stroke="#FF5C4D" stroke-width="1"/><g><rect x="420.0" y="814.0" width="24" height="16" rx="4" fill="#FF5C4D"/><text x="432" y="825.5" font-family="Open Sans" font-weight="700" font-size="9" fill="#FFFFFF" text-anchor="middle">44</text></g>
+<path d="M 452 448 V 512" stroke="#FF5C4D" stroke-width="1"/><path d="M 448 448 h 8 M 448 512 h 8" stroke="#FF5C4D" stroke-width="1"/><g><rect x="458.0" y="472.0" width="24" height="16" rx="4" fill="#FF5C4D"/><text x="470" y="483.5" font-family="Open Sans" font-weight="700" font-size="9" fill="#FFFFFF" text-anchor="middle">64</text></g>
+<path d="M 452 512 V 520" stroke="#FF5C4D" stroke-width="1"/><path d="M 448 512 h 8 M 448 520 h 8" stroke="#FF5C4D" stroke-width="1"/><g><rect x="460.0" y="508.0" width="24" height="16" rx="4" fill="#FF5C4D"/><text x="472" y="519.5" font-family="Open Sans" font-weight="700" font-size="9" fill="#FFFFFF" text-anchor="middle">8</text></g>
+<path d="M -24 648 V 744" stroke="#FF5C4D" stroke-width="1"/><path d="M -28 648 h 8 M -28 744 h 8" stroke="#FF5C4D" stroke-width="1"/><g><rect x="-54.0" y="688.0" width="24" height="16" rx="4" fill="#FF5C4D"/><text x="-42" y="699.5" font-family="Open Sans" font-weight="700" font-size="9" fill="#FFFFFF" text-anchor="middle">96</text></g>
+<path d="M -24 406 V 448" stroke="#FF5C4D" stroke-width="1"/><path d="M -28 406 h 8 M -28 448 h 8" stroke="#FF5C4D" stroke-width="1"/><g><rect x="-54.0" y="419.0" width="24" height="16" rx="4" fill="#FF5C4D"/><text x="-42" y="430.5" font-family="Open Sans" font-weight="700" font-size="9" fill="#FFFFFF" text-anchor="middle">42</text></g>
+<path d="M -24 296 V 380" stroke="#FF5C4D" stroke-width="1"/><path d="M -28 296 h 8 M -28 380 h 8" stroke="#FF5C4D" stroke-width="1"/><g><rect x="-54.0" y="330.0" width="24" height="16" rx="4" fill="#FF5C4D"/><text x="-42" y="341.5" font-family="Open Sans" font-weight="700" font-size="9" fill="#FFFFFF" text-anchor="middle">84</text></g></g>
+<text x="760" y="96" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">2 · Vocal — rythme vertical</text>
+<g transform="translate(760,120)"><rect id="Device/voice-listening" x="0" y="0" width="390" height="844" rx="47" fill="#1C1B1B"/>
+<path id="Notch 2" d="M 114 0 H 276 V 12 A 20 20 0 0 1 256 32 H 134 A 20 20 0 0 1 114 12 Z" fill="#000000"/>
+<g id="StatusBar 2">
+<text x="54" y="33" font-family="Open Sans" font-weight="700" font-size="15" fill="#FFFFFF" text-anchor="middle">9:41</text>
+<rect x="300" y="24" width="3" height="4" rx="1" fill="#FFFFFF"/>
+<rect x="305" y="22" width="3" height="6" rx="1" fill="#FFFFFF"/>
+<rect x="310" y="20" width="3" height="8" rx="1" fill="#FFFFFF"/>
+<rect x="315" y="18" width="3" height="10" rx="1" fill="#FFFFFF"/>
+<path d="M 324 21.5 A 9 9 0 0 1 336 21.5" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round"/>
+<path d="M 327 25 A 5 5 0 0 1 333 25" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round"/>
+<circle cx="330" cy="27.8" r="1.2" fill="#FFFFFF"/>
+<rect x="344" y="19" width="21" height="11" rx="3" fill="none" stroke="#FFFFFF" stroke-opacity="0.5"/>
+<rect x="346" y="21" width="15" height="7" rx="1.5" fill="#FFFFFF"/>
+<path d="M 367 22.5 v 4" stroke="#FFFFFF" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round"/>
+</g>
+<g id="VoiceTopBar"><path d="M 22 72 L 28 78 L 34 72" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text x="48" y="81" font-family="Open Sans" font-weight="400" font-size="13" fill="#626C72">Revenir au chat</text></g>
+<g id="Orb/listening">
+<circle cx="195" cy="186" r="78" fill="none" stroke="url(#grad-accent)" stroke-width="1" stroke-opacity="0.12"/>
+<circle cx="195" cy="186" r="64" fill="none" stroke="url(#grad-accent)" stroke-width="1.5" stroke-opacity="0.22"/>
+<circle cx="195" cy="186" r="56" fill="none" stroke="url(#grad-accent)" stroke-width="2" stroke-opacity="0.35"/>
+<circle cx="195" cy="186" r="48" fill="url(#grad-accent)"/></g>
+<text x="195" y="258" font-family="Open Sans" font-weight="400" font-size="15" fill="#A3A9AB" text-anchor="middle">Je vous écoute</text>
+<g id="Transcript">
+<text x="16" y="316" font-family="Open Sans" font-weight="400" font-size="16" font-style="italic" fill="#626C72">Que puis-je faire pour vous ?</text>
+<text x="374" y="356" font-family="Open Sans" font-weight="400" font-size="16" font-style="italic" fill="#626C72" text-anchor="end">Peux-tu comparer ces deux</text>
+<text x="374" y="380" font-family="Open Sans" font-weight="400" font-size="16" font-style="italic" fill="#626C72" text-anchor="end">documents et lister les différences ?</text>
+<text x="16" y="420" font-family="Open Sans" font-weight="400" font-size="16" font-style="italic" fill="#626C72">Bien sûr, je regarde les deux fichiers.</text>
+<text x="374" y="460" font-family="Open Sans" font-weight="400" font-size="16" font-style="italic" fill="#FFFFFF" text-anchor="end">Ceci est la transcription en direct</text>
+<text x="374" y="484" font-family="Open Sans" font-weight="400" font-size="16" font-style="italic" fill="#FFFFFF" text-anchor="end">de ce que dit l'utilisateur, affichée</text>
+<text x="374" y="508" font-family="Open Sans" font-weight="400" font-size="16" font-style="italic" fill="#FFFFFF" text-anchor="end">au fur et à mesure.</text></g>
+<g id="Waveform/live">
+<rect x="75" y="616" width="3" height="8" rx="1.5" fill="#8D8DC8"/>
+<rect x="85" y="613" width="3" height="14" rx="1.5" fill="#8D8DC8"/>
+<rect x="95" y="609" width="3" height="22" rx="1.5" fill="#8D8DC8"/>
+<rect x="105" y="604" width="3" height="32" rx="1.5" fill="#8D8DC8"/>
+<rect x="115" y="598" width="3" height="44" rx="1.5" fill="#8D8DC8"/>
+<rect x="125" y="596" width="3" height="48" rx="1.5" fill="#8D8DC8"/>
+<rect x="135" y="601" width="3" height="38" rx="1.5" fill="#8D8DC8"/>
+<rect x="145" y="607" width="3" height="26" rx="1.5" fill="#8D8DC8"/>
+<rect x="155" y="611" width="3" height="18" rx="1.5" fill="#8D8DC8"/>
+<rect x="165" y="606" width="3" height="28" rx="1.5" fill="#8D8DC8"/>
+<rect x="175" y="600" width="3" height="40" rx="1.5" fill="#8D8DC8"/>
+<rect x="185" y="596" width="3" height="48" rx="1.5" fill="#8D8DC8"/>
+<rect x="195" y="598" width="3" height="44" rx="1.5" fill="#8D8DC8"/>
+<rect x="205" y="603" width="3" height="34" rx="1.5" fill="#8D8DC8"/>
+<rect x="215" y="609" width="3" height="22" rx="1.5" fill="#8D8DC8"/>
+<rect x="225" y="612" width="3" height="16" rx="1.5" fill="#8D8DC8"/>
+<rect x="235" y="608" width="3" height="24" rx="1.5" fill="#8D8DC8"/>
+<rect x="245" y="602" width="3" height="36" rx="1.5" fill="#8D8DC8"/>
+<rect x="255" y="597" width="3" height="46" rx="1.5" fill="#8D8DC8"/>
+<rect x="265" y="600" width="3" height="40" rx="1.5" fill="#8D8DC8"/>
+<rect x="275" y="606" width="3" height="28" rx="1.5" fill="#8D8DC8"/>
+<rect x="285" y="611" width="3" height="18" rx="1.5" fill="#8D8DC8"/>
+<rect x="295" y="614" width="3" height="12" rx="1.5" fill="#8D8DC8"/>
+<rect x="305" y="616" width="3" height="8" rx="1.5" fill="#8D8DC8"/>
+<rect x="315" y="615" width="3" height="10" rx="1.5" fill="#8D8DC8"/></g>
+<g id="VoiceControls">
+<g id="Control/mute"><circle cx="143" cy="722" r="32" fill="#333435"/>
+<rect x="139.0" y="712.0" width="8.0" height="13.0" rx="4.0" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+<path d="M 135.5 723.0 v 1.5 a 7.5 7.5 0 0 0 15.0 0 v -1.5" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+<path d="M 143 732.0 v 3.0" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+<path d="M 133.0 710.0 L 153.0 734.0" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+</g>
+<g id="Control/end"><circle cx="247" cy="722" r="32" fill="#FF5A5F"/>
+<path d="M 239 714 L 255 730 M 255 714 L 239 730" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/></g>
+<text x="143" y="776" font-family="Open Sans" font-weight="400" font-size="11" fill="#626C72" text-anchor="middle">Couper le micro</text>
+<text x="247" y="776" font-family="Open Sans" font-weight="400" font-size="11" fill="#626C72" text-anchor="middle">Quitter</text>
+</g>
+<rect id="HomeIndicator 2" x="125" y="831" width="140" height="5" rx="2.5" fill="#FFFFFF" fill-opacity="0.3"/>
+<path d="M -24 138 V 234" stroke="#FF5C4D" stroke-width="1"/><path d="M -28 138 h 8 M -28 234 h 8" stroke="#FF5C4D" stroke-width="1"/><g><rect x="-54.0" y="178.0" width="24" height="16" rx="4" fill="#FF5C4D"/><text x="-42" y="189.5" font-family="Open Sans" font-weight="700" font-size="9" fill="#FFFFFF" text-anchor="middle">96</text></g>
+<path d="M -24 234 V 258" stroke="#FF5C4D" stroke-width="1"/><path d="M -28 234 h 8 M -28 258 h 8" stroke="#FF5C4D" stroke-width="1"/><g><rect x="-54.0" y="238.0" width="24" height="16" rx="4" fill="#FF5C4D"/><text x="-42" y="249.5" font-family="Open Sans" font-weight="700" font-size="9" fill="#FFFFFF" text-anchor="middle">24</text></g>
+<path d="M -24 258 V 316" stroke="#FF5C4D" stroke-width="1"/><path d="M -28 258 h 8 M -28 316 h 8" stroke="#FF5C4D" stroke-width="1"/><g><rect x="-54.0" y="279.0" width="24" height="16" rx="4" fill="#FF5C4D"/><text x="-42" y="290.5" font-family="Open Sans" font-weight="700" font-size="9" fill="#FFFFFF" text-anchor="middle">58</text></g>
+<path d="M 16 292 H 374" stroke="#FF5C4D" stroke-width="1"/><path d="M 16 288 v 8 M 374 288 v 8" stroke="#FF5C4D" stroke-width="1"/><g><rect x="180.3" y="284" width="29.4" height="16" rx="4" fill="#FF5C4D"/><text x="195.0" y="295.5" font-family="Open Sans" font-weight="700" font-size="9" fill="#FFFFFF" text-anchor="middle">358</text></g>
+<path d="M 386 316 V 340" stroke="#FF5C4D" stroke-width="1"/><path d="M 382 316 h 8 M 382 340 h 8" stroke="#FF5C4D" stroke-width="1"/><g><rect x="390.0" y="320.0" width="24" height="16" rx="4" fill="#FF5C4D"/><text x="402" y="331.5" font-family="Open Sans" font-weight="700" font-size="9" fill="#FFFFFF" text-anchor="middle">24</text></g>
+<path d="M 414 596 V 644" stroke="#FF5C4D" stroke-width="1"/><path d="M 410 596 h 8 M 410 644 h 8" stroke="#FF5C4D" stroke-width="1"/><g><rect x="420.0" y="612.0" width="24" height="16" rx="4" fill="#FF5C4D"/><text x="432" y="623.5" font-family="Open Sans" font-weight="700" font-size="9" fill="#FFFFFF" text-anchor="middle">48</text></g>
+<path d="M 414 644 V 690" stroke="#FF5C4D" stroke-width="1"/><path d="M 410 644 h 8 M 410 690 h 8" stroke="#FF5C4D" stroke-width="1"/><g><rect x="420.0" y="659.0" width="24" height="16" rx="4" fill="#FF5C4D"/><text x="432" y="670.5" font-family="Open Sans" font-weight="700" font-size="9" fill="#FFFFFF" text-anchor="middle">46</text></g>
+<path d="M 414 690 V 754" stroke="#FF5C4D" stroke-width="1"/><path d="M 410 690 h 8 M 410 754 h 8" stroke="#FF5C4D" stroke-width="1"/><g><rect x="420.0" y="714.0" width="24" height="16" rx="4" fill="#FF5C4D"/><text x="432" y="725.5" font-family="Open Sans" font-weight="700" font-size="9" fill="#FFFFFF" text-anchor="middle">64</text></g>
+<path d="M 414 754 V 776" stroke="#FF5C4D" stroke-width="1"/><path d="M 410 754 h 8 M 410 776 h 8" stroke="#FF5C4D" stroke-width="1"/><g><rect x="420.0" y="757.0" width="24" height="16" rx="4" fill="#FF5C4D"/><text x="432" y="768.5" font-family="Open Sans" font-weight="700" font-size="9" fill="#FFFFFF" text-anchor="middle">22</text></g>
+<path d="M 111 672 H 175" stroke="#FF5C4D" stroke-width="1"/><path d="M 111 668 v 8 M 175 668 v 8" stroke="#FF5C4D" stroke-width="1"/><g><rect x="131.0" y="650" width="24" height="16" rx="4" fill="#FF5C4D"/><text x="143.0" y="661.5" font-family="Open Sans" font-weight="700" font-size="9" fill="#FFFFFF" text-anchor="middle">64</text></g>
+<path d="M 175 672 H 215" stroke="#FF5C4D" stroke-width="1"/><path d="M 175 668 v 8 M 215 668 v 8" stroke="#FF5C4D" stroke-width="1"/><g><rect x="183.0" y="650" width="24" height="16" rx="4" fill="#FF5C4D"/><text x="195.0" y="661.5" font-family="Open Sans" font-weight="700" font-size="9" fill="#FFFFFF" text-anchor="middle">40</text></g>
+<path d="M 215 672 H 279" stroke="#FF5C4D" stroke-width="1"/><path d="M 215 668 v 8 M 279 668 v 8" stroke="#FF5C4D" stroke-width="1"/><g><rect x="235.0" y="650" width="24" height="16" rx="4" fill="#FF5C4D"/><text x="247.0" y="661.5" font-family="Open Sans" font-weight="700" font-size="9" fill="#FFFFFF" text-anchor="middle">64</text></g></g>
+<text x="1420" y="96" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">3 · Chatbar — détail interne</text>
+<g transform="translate(1460,200)"><g transform="translate(-16,-744)"><g id="Chatbar/idle 2">
+<rect x="16" y="744" width="358" height="56" rx="28" fill="#272829"/>
+<g id="PlusButton 2"><circle cx="40" cy="772" r="16" fill="#333435"/><path d="M 33.5 772 h 13 M 40 765.5 v 13" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/></g>
+<text x="68" y="778" font-family="Open Sans" font-weight="400" font-size="16" fill="#A3A9AB">Message…</text>
+<g id="Button/dictation 2"><rect x="298.6" y="763.5" width="6.8" height="11.049999999999999" rx="3.4" fill="none" stroke="#A3A9AB" stroke-width="1.8"/>
+<path d="M 295.625 772.85 v 1.275 a 6.375 6.375 0 0 0 12.75 0 v -1.275" fill="none" stroke="#A3A9AB" stroke-width="1.8" stroke-linecap="round"/>
+<path d="M 302 780.5 v 2.55" stroke="#A3A9AB" stroke-width="1.8" stroke-linecap="round"/></g>
+<g id="Button/voice 2"><circle cx="346" cy="772" r="20" fill="url(#grad-primary)"/>
+<path d="M 339.5 768 V 776" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/>
+<path d="M 343.8 764 V 780" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/>
+<path d="M 348.2 766.5 V 777.5" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/>
+<path d="M 352.5 769 V 775" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/></g>
+</g></g>
+<path d="M 0 -22 H 358" stroke="#FF5C4D" stroke-width="1"/><path d="M 0 -26 v 8 M 358 -26 v 8" stroke="#FF5C4D" stroke-width="1"/><g><rect x="164.3" y="-30" width="29.4" height="16" rx="4" fill="#FF5C4D"/><text x="179.0" y="-18.5" font-family="Open Sans" font-weight="700" font-size="9" fill="#FFFFFF" text-anchor="middle">358</text></g>
+<path d="M -26 0 V 56" stroke="#FF5C4D" stroke-width="1"/><path d="M -30 0 h 8 M -30 56 h 8" stroke="#FF5C4D" stroke-width="1"/><g><rect x="-56.0" y="20.0" width="24" height="16" rx="4" fill="#FF5C4D"/><text x="-44" y="31.5" font-family="Open Sans" font-weight="700" font-size="9" fill="#FFFFFF" text-anchor="middle">56</text></g>
+<path d="M 0 76 H 8" stroke="#FF5C4D" stroke-width="1"/><path d="M 0 72 v 8 M 8 72 v 8" stroke="#FF5C4D" stroke-width="1"/><g><rect x="-8.0" y="54" width="24" height="16" rx="4" fill="#FF5C4D"/><text x="4.0" y="65.5" font-family="Open Sans" font-weight="700" font-size="9" fill="#FFFFFF" text-anchor="middle">8</text></g>
+<path d="M 8 76 H 40" stroke="#FF5C4D" stroke-width="1"/><path d="M 8 72 v 8 M 40 72 v 8" stroke="#FF5C4D" stroke-width="1"/><g><rect x="12.0" y="82" width="24" height="16" rx="4" fill="#FF5C4D"/><text x="24.0" y="93.5" font-family="Open Sans" font-weight="700" font-size="9" fill="#FFFFFF" text-anchor="middle">32</text></g>
+<path d="M 40 76 H 52" stroke="#FF5C4D" stroke-width="1"/><path d="M 40 72 v 8 M 52 72 v 8" stroke="#FF5C4D" stroke-width="1"/><g><rect x="34.0" y="54" width="24" height="16" rx="4" fill="#FF5C4D"/><text x="46.0" y="65.5" font-family="Open Sans" font-weight="700" font-size="9" fill="#FFFFFF" text-anchor="middle">12</text></g>
+<path d="M 274 76 H 298" stroke="#FF5C4D" stroke-width="1"/><path d="M 274 72 v 8 M 298 72 v 8" stroke="#FF5C4D" stroke-width="1"/><g><rect x="274.0" y="82" width="24" height="16" rx="4" fill="#FF5C4D"/><text x="286.0" y="93.5" font-family="Open Sans" font-weight="700" font-size="9" fill="#FFFFFF" text-anchor="middle">24</text></g>
+<path d="M 298 76 H 310" stroke="#FF5C4D" stroke-width="1"/><path d="M 298 72 v 8 M 310 72 v 8" stroke="#FF5C4D" stroke-width="1"/><g><rect x="292.0" y="54" width="24" height="16" rx="4" fill="#FF5C4D"/><text x="304.0" y="65.5" font-family="Open Sans" font-weight="700" font-size="9" fill="#FFFFFF" text-anchor="middle">12</text></g>
+<path d="M 310 76 H 350" stroke="#FF5C4D" stroke-width="1"/><path d="M 310 72 v 8 M 350 72 v 8" stroke="#FF5C4D" stroke-width="1"/><g><rect x="318.0" y="82" width="24" height="16" rx="4" fill="#FF5C4D"/><text x="330.0" y="93.5" font-family="Open Sans" font-weight="700" font-size="9" fill="#FFFFFF" text-anchor="middle">40</text></g>
+<path d="M 350 76 H 358" stroke="#FF5C4D" stroke-width="1"/><path d="M 350 72 v 8 M 358 72 v 8" stroke="#FF5C4D" stroke-width="1"/><g><rect x="342.0" y="54" width="24" height="16" rx="4" fill="#FF5C4D"/><text x="354.0" y="65.5" font-family="Open Sans" font-weight="700" font-size="9" fill="#FFFFFF" text-anchor="middle">8</text></g>
+<rect x="274" y="16" width="24" height="24" fill="none" stroke="#FF5C4D" stroke-width="1" stroke-dasharray="3 3"/></g>
+<text x="1420" y="330" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">4 · Contrôles vocaux — détail</text>
+<g transform="translate(1500,400)"><g transform="translate(-111,-690)"><g id="VoiceControls 2">
+<g id="Control/mute 2"><circle cx="143" cy="722" r="32" fill="#333435"/>
+<rect x="139.0" y="712.0" width="8.0" height="13.0" rx="4.0" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+<path d="M 135.5 723.0 v 1.5 a 7.5 7.5 0 0 0 15.0 0 v -1.5" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+<path d="M 143 732.0 v 3.0" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+<path d="M 133.0 710.0 L 153.0 734.0" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+</g>
+<g id="Control/end 2"><circle cx="247" cy="722" r="32" fill="#FF5A5F"/>
+<path d="M 239 714 L 255 730 M 255 714 L 239 730" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/></g>
+<text x="143" y="776" font-family="Open Sans" font-weight="400" font-size="11" fill="#626C72" text-anchor="middle">Couper le micro</text>
+<text x="247" y="776" font-family="Open Sans" font-weight="400" font-size="11" fill="#626C72" text-anchor="middle">Quitter</text>
+</g></g>
+<path d="M 0 -16 H 64" stroke="#FF5C4D" stroke-width="1"/><path d="M 0 -20 v 8 M 64 -20 v 8" stroke="#FF5C4D" stroke-width="1"/><g><rect x="20.0" y="-38" width="24" height="16" rx="4" fill="#FF5C4D"/><text x="32.0" y="-26.5" font-family="Open Sans" font-weight="700" font-size="9" fill="#FFFFFF" text-anchor="middle">64</text></g>
+<path d="M 64 -16 H 104" stroke="#FF5C4D" stroke-width="1"/><path d="M 64 -20 v 8 M 104 -20 v 8" stroke="#FF5C4D" stroke-width="1"/><g><rect x="72.0" y="-38" width="24" height="16" rx="4" fill="#FF5C4D"/><text x="84.0" y="-26.5" font-family="Open Sans" font-weight="700" font-size="9" fill="#FFFFFF" text-anchor="middle">40</text></g>
+<path d="M 104 -16 H 168" stroke="#FF5C4D" stroke-width="1"/><path d="M 104 -20 v 8 M 168 -20 v 8" stroke="#FF5C4D" stroke-width="1"/><g><rect x="124.0" y="-38" width="24" height="16" rx="4" fill="#FF5C4D"/><text x="136.0" y="-26.5" font-family="Open Sans" font-weight="700" font-size="9" fill="#FFFFFF" text-anchor="middle">64</text></g>
+<path d="M -26 0 V 64" stroke="#FF5C4D" stroke-width="1"/><path d="M -30 0 h 8 M -30 64 h 8" stroke="#FF5C4D" stroke-width="1"/><g><rect x="-56.0" y="24.0" width="24" height="16" rx="4" fill="#FF5C4D"/><text x="-44" y="35.5" font-family="Open Sans" font-weight="700" font-size="9" fill="#FFFFFF" text-anchor="middle">64</text></g>
+<path d="M -26 64 V 86" stroke="#FF5C4D" stroke-width="1"/><path d="M -30 64 h 8 M -30 86 h 8" stroke="#FF5C4D" stroke-width="1"/><g><rect x="-56.0" y="67.0" width="24" height="16" rx="4" fill="#FF5C4D"/><text x="-44" y="78.5" font-family="Open Sans" font-weight="700" font-size="9" fill="#FFFFFF" text-anchor="middle">22</text></g></g>
+<text x="1420" y="560" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">5 · Carte fichier — détail</text>
+<g transform="translate(1540,620)"><g transform="translate(-52,-402)"><g id="Card/file/mobile">
+<rect x="52" y="402" width="322" height="120" rx="12" fill="#272829" stroke="#383838"/>
+<rect x="68" y="418" width="36" height="36" rx="10" fill="#1F9D55"/>
+<text x="86" y="440" font-family="Open Sans" font-weight="700" font-size="10" fill="#FFFFFF" text-anchor="middle">XLS</text>
+<text x="116" y="432" font-family="Open Sans" font-weight="700" font-size="13" fill="#FFFFFF">nom-du-fichier.xlsx</text>
+<text x="116" y="452" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">XLSX · 128 Ko</text>
+<rect x="68" y="466" width="290" height="40" rx="8" fill="url(#grad-primary)"/>
+<text x="213" y="491" font-family="Open Sans" font-weight="700" font-size="13" fill="#1C1B1B" text-anchor="middle">Ouvrir le fichier</text>
+</g></g>
+<path d="M 0 -18 H 322" stroke="#FF5C4D" stroke-width="1"/><path d="M 0 -22 v 8 M 322 -22 v 8" stroke="#FF5C4D" stroke-width="1"/><g><rect x="146.3" y="-26" width="29.4" height="16" rx="4" fill="#FF5C4D"/><text x="161.0" y="-14.5" font-family="Open Sans" font-weight="700" font-size="9" fill="#FFFFFF" text-anchor="middle">322</text></g>
+<path d="M -24 0 V 16" stroke="#FF5C4D" stroke-width="1"/><path d="M -28 0 h 8 M -28 16 h 8" stroke="#FF5C4D" stroke-width="1"/><g><rect x="-54.0" y="0.0" width="24" height="16" rx="4" fill="#FF5C4D"/><text x="-42" y="11.5" font-family="Open Sans" font-weight="700" font-size="9" fill="#FFFFFF" text-anchor="middle">16</text></g>
+<path d="M -24 16 V 52" stroke="#FF5C4D" stroke-width="1"/><path d="M -28 16 h 8 M -28 52 h 8" stroke="#FF5C4D" stroke-width="1"/><g><rect x="-54.0" y="26.0" width="24" height="16" rx="4" fill="#FF5C4D"/><text x="-42" y="37.5" font-family="Open Sans" font-weight="700" font-size="9" fill="#FFFFFF" text-anchor="middle">36</text></g>
+<path d="M -24 52 V 64" stroke="#FF5C4D" stroke-width="1"/><path d="M -28 52 h 8 M -28 64 h 8" stroke="#FF5C4D" stroke-width="1"/><g><rect x="-54.0" y="50.0" width="24" height="16" rx="4" fill="#FF5C4D"/><text x="-42" y="61.5" font-family="Open Sans" font-weight="700" font-size="9" fill="#FFFFFF" text-anchor="middle">12</text></g>
+<path d="M -24 64 V 104" stroke="#FF5C4D" stroke-width="1"/><path d="M -28 64 h 8 M -28 104 h 8" stroke="#FF5C4D" stroke-width="1"/><g><rect x="-54.0" y="76.0" width="24" height="16" rx="4" fill="#FF5C4D"/><text x="-42" y="87.5" font-family="Open Sans" font-weight="700" font-size="9" fill="#FFFFFF" text-anchor="middle">40</text></g>
+<path d="M -24 104 V 120" stroke="#FF5C4D" stroke-width="1"/><path d="M -28 104 h 8 M -28 120 h 8" stroke="#FF5C4D" stroke-width="1"/><g><rect x="-54.0" y="104.0" width="24" height="16" rx="4" fill="#FF5C4D"/><text x="-42" y="115.5" font-family="Open Sans" font-weight="700" font-size="9" fill="#FFFFFF" text-anchor="middle">16</text></g>
+<path d="M 0 136 H 16" stroke="#FF5C4D" stroke-width="1"/><path d="M 0 132 v 8 M 16 132 v 8" stroke="#FF5C4D" stroke-width="1"/><g><rect x="-4.0" y="114" width="24" height="16" rx="4" fill="#FF5C4D"/><text x="8.0" y="125.5" font-family="Open Sans" font-weight="700" font-size="9" fill="#FFFFFF" text-anchor="middle">16</text></g>
+<path d="M 16 136 H 52" stroke="#FF5C4D" stroke-width="1"/><path d="M 16 132 v 8 M 52 132 v 8" stroke="#FF5C4D" stroke-width="1"/><g><rect x="22.0" y="142" width="24" height="16" rx="4" fill="#FF5C4D"/><text x="34.0" y="153.5" font-family="Open Sans" font-weight="700" font-size="9" fill="#FFFFFF" text-anchor="middle">36</text></g>
+<path d="M 52 136 H 64" stroke="#FF5C4D" stroke-width="1"/><path d="M 52 132 v 8 M 64 132 v 8" stroke="#FF5C4D" stroke-width="1"/><g><rect x="46.0" y="114" width="24" height="16" rx="4" fill="#FF5C4D"/><text x="58.0" y="125.5" font-family="Open Sans" font-weight="700" font-size="9" fill="#FFFFFF" text-anchor="middle">12</text></g>
+<path d="M 16 136 H 306" stroke="#FF5C4D" stroke-width="1"/><path d="M 16 132 v 8 M 306 132 v 8" stroke="#FF5C4D" stroke-width="1"/><g><rect x="146.3" y="156" width="29.4" height="16" rx="4" fill="#FF5C4D"/><text x="161.0" y="167.5" font-family="Open Sans" font-weight="700" font-size="9" fill="#FFFFFF" text-anchor="middle">290</text></g></g>
+<text x="1420" y="830" font-family="Open Sans" font-weight="700" font-size="11" fill="#4A5055">LÉGENDE</text>
+<path d="M 1420 856 H 1470" stroke="#FF5C4D" stroke-width="1"/>
+<path d="M 1420 852 v 8 M 1470 852 v 8" stroke="#FF5C4D" stroke-width="1"/>
+<g><rect x="1433.0" y="848" width="24" height="16" rx="4" fill="#FF5C4D"/><text x="1445" y="859.5" font-family="Open Sans" font-weight="700" font-size="9" fill="#FFFFFF" text-anchor="middle">16</text></g>
+<text x="1490" y="860" font-family="Open Sans" font-weight="400" font-size="10" fill="#4A5055">cote en points logiques (pt)</text>
+<rect x="1420" y="880" width="50" height="24" fill="none" stroke="#FF5C4D" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="1490" y="896" font-family="Open Sans" font-weight="400" font-size="10" fill="#4A5055">cible tactile</text>
+<text x="1420" y="936" font-family="Open Sans" font-weight="400" font-size="10" fill="#4A5055">Toutes les valeurs sont des multiples de 4.</text>
+<text x="1420" y="956" font-family="Open Sans" font-weight="400" font-size="10" fill="#4A5055">Insets horizontaux 8 · gouttières 12 · marge écran 16.</text>
+</svg>
