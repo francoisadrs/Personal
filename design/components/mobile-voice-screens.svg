@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2620" height="984" viewBox="0 0 2620 984" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="grad-primary" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#00F9FF"/><stop offset="1" stop-color="#7E9DEE"/></linearGradient>
+<linearGradient id="grad-accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#00F9FF"/><stop offset="0.5" stop-color="#818BFD"/><stop offset="1" stop-color="#EF7AC5"/></linearGradient>
+</defs>
+<rect id="Board background" x="0" y="0" width="2620" height="984" fill="#161617"/>
+<text x="40" y="48" font-family="Open Sans" font-weight="700" font-size="11" fill="#4A5055">MOBILE — iPhone 13 / 14 · 390 × 844</text>
+<text x="40" y="88" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">1 · Accueil</text>
+<g id="Screen/1 · Accueil" transform="translate(40,100)">
+<rect id="Device/home" x="0" y="0" width="390" height="844" rx="47" fill="#1C1B1B"/>
+<path id="Notch" d="M 114 0 H 276 V 12 A 20 20 0 0 1 256 32 H 134 A 20 20 0 0 1 114 12 Z" fill="#000000"/>
+<g id="StatusBar">
+<text x="54" y="33" font-family="Open Sans" font-weight="700" font-size="15" fill="#FFFFFF" text-anchor="middle">9:41</text>
+<rect x="300" y="24" width="3" height="4" rx="1" fill="#FFFFFF"/>
+<rect x="305" y="22" width="3" height="6" rx="1" fill="#FFFFFF"/>
+<rect x="310" y="20" width="3" height="8" rx="1" fill="#FFFFFF"/>
+<rect x="315" y="18" width="3" height="10" rx="1" fill="#FFFFFF"/>
+<path d="M 324 21.5 A 9 9 0 0 1 336 21.5" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round"/>
+<path d="M 327 25 A 5 5 0 0 1 333 25" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round"/>
+<circle cx="330" cy="27.8" r="1.2" fill="#FFFFFF"/>
+<rect x="344" y="19" width="21" height="11" rx="3" fill="none" stroke="#FFFFFF" stroke-opacity="0.5"/>
+<rect x="346" y="21" width="15" height="7" rx="1.5" fill="#FFFFFF"/>
+<path d="M 367 22.5 v 4" stroke="#FFFFFF" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round"/>
+</g>
+<g id="Header">
+<rect x="16" y="63" width="24" height="24" rx="6" fill="none" stroke="#FFFFFF" stroke-width="1.8"/>
+<path d="M 31 63 V 87" stroke="#FFFFFF" stroke-width="1.8"/>
+<path d="M 195 64 C 198.08 70.072 199.928 71.92 206 75 C 199.928 78.08 198.08 79.928 195 86 C 191.92 79.928 190.072 78.08 184 75 C 190.072 71.92 191.92 70.072 195 64 Z" fill="url(#grad-accent)"/>
+<path d="M 368 76 V 82 A 3 3 0 0 1 365 85 H 353 A 3 3 0 0 1 350 82 V 70 A 3 3 0 0 1 353 67 H 359" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 363.5 65.5 L 367.5 69.5 L 359 78 H 355 V 74 Z" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linejoin="round"/>
+</g>
+<path d="M 195 266 C 203.4 282.56 208.44 287.6 225 296 C 208.44 304.4 203.4 309.44 195 326 C 186.6 309.44 181.56 304.4 165 296 C 181.56 287.6 186.6 282.56 195 266 Z" fill="url(#grad-accent)"/>
+<path d="M 219 308 C 222.36 314.624 224.376 316.64 231 320 C 224.376 323.36 222.36 325.376 219 332 C 215.64 325.376 213.624 323.36 207 320 C 213.624 316.64 215.64 314.624 219 308 Z" fill="url(#grad-accent)"/>
+<text x="195" y="380" font-family="Open Sans" font-weight="400" font-size="22" fill="#FFFFFF" text-anchor="middle">Comment puis-je vous aider ?</text>
+<text x="195" y="406" font-family="Open Sans" font-weight="400" font-size="14" fill="#626C72" text-anchor="middle">Posez votre question ou lancez le mode vocal.</text>
+<g id="SuggestionCard 1">
+<rect x="16" y="448" width="358" height="64" rx="16" fill="#272829" stroke="#383838"/>
+<rect x="32" y="464" width="32" height="32" rx="10" fill="#333435"/>
+<circle cx="48" cy="480" r="7" fill="none" stroke="#A3A9AB" stroke-width="1.8"/>
+<text x="80" y="476" font-family="Open Sans" font-weight="700" font-size="14" fill="#FFFFFF">Poser une question</text>
+<text x="80" y="495" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">Réponse sourcée</text>
+<path d="M 350 475 L 355 480 L 350 485" fill="none" stroke="#626C72" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="SuggestionCard 2">
+<rect x="16" y="520" width="358" height="64" rx="16" fill="#272829" stroke="#383838"/>
+<rect x="32" y="536" width="32" height="32" rx="10" fill="#333435"/>
+<circle cx="48" cy="552" r="7" fill="none" stroke="#A3A9AB" stroke-width="1.8"/>
+<text x="80" y="548" font-family="Open Sans" font-weight="700" font-size="14" fill="#FFFFFF">Analyser un document</text>
+<text x="80" y="567" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">Importer un fichier</text>
+<path d="M 350 547 L 355 552 L 350 557" fill="none" stroke="#626C72" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="SuggestionCard 3">
+<rect x="16" y="592" width="358" height="64" rx="16" fill="#272829" stroke="#383838"/>
+<rect x="32" y="608" width="32" height="32" rx="10" fill="#333435"/>
+<path d="M 43 620.5 V 627.5" stroke="#8D8DC8" stroke-width="2" stroke-linecap="round"/>
+<path d="M 46.3 617 V 631" stroke="#8D8DC8" stroke-width="2" stroke-linecap="round"/>
+<path d="M 49.7 619 V 629" stroke="#8D8DC8" stroke-width="2" stroke-linecap="round"/>
+<path d="M 53 621.5 V 626.5" stroke="#8D8DC8" stroke-width="2" stroke-linecap="round"/>
+<text x="80" y="620" font-family="Open Sans" font-weight="700" font-size="14" fill="#FFFFFF">Démarrer en vocal</text>
+<text x="80" y="639" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">Conversation mains libres</text>
+<path d="M 350 619 L 355 624 L 350 629" fill="none" stroke="#626C72" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="Chatbar/idle">
+<rect x="16" y="744" width="358" height="56" rx="28" fill="#272829"/>
+<g id="PlusButton"><circle cx="44" cy="772" r="16" fill="#333435"/><path d="M 37.5 772 h 13 M 44 765.5 v 13" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/></g>
+<text x="70" y="778" font-family="Open Sans" font-weight="400" font-size="16" fill="#A3A9AB">Message…</text>
+<g id="Button/voice"><circle cx="350" cy="772" r="20" fill="url(#grad-primary)"/>
+<path d="M 343.5 768 V 776" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/>
+<path d="M 347.8 764 V 780" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/>
+<path d="M 352.2 766.5 V 777.5" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/>
+<path d="M 356.5 769 V 775" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/>
+</g>
+</g>
+<rect id="HomeIndicator" x="125" y="831" width="140" height="5" rx="2.5" fill="#FFFFFF" fill-opacity="0.3"/>
+</g>
+<text x="470" y="88" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">2 · Conversation + résultat</text>
+<g id="Screen/2 · Conversation + résultat" transform="translate(470,100)">
+<rect id="Device/conversation" x="0" y="0" width="390" height="844" rx="47" fill="#1C1B1B"/>
+<path id="Notch 2" d="M 114 0 H 276 V 12 A 20 20 0 0 1 256 32 H 134 A 20 20 0 0 1 114 12 Z" fill="#000000"/>
+<g id="StatusBar 2">
+<text x="54" y="33" font-family="Open Sans" font-weight="700" font-size="15" fill="#FFFFFF" text-anchor="middle">9:41</text>
+<rect x="300" y="24" width="3" height="4" rx="1" fill="#FFFFFF"/>
+<rect x="305" y="22" width="3" height="6" rx="1" fill="#FFFFFF"/>
+<rect x="310" y="20" width="3" height="8" rx="1" fill="#FFFFFF"/>
+<rect x="315" y="18" width="3" height="10" rx="1" fill="#FFFFFF"/>
+<path d="M 324 21.5 A 9 9 0 0 1 336 21.5" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round"/>
+<path d="M 327 25 A 5 5 0 0 1 333 25" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round"/>
+<circle cx="330" cy="27.8" r="1.2" fill="#FFFFFF"/>
+<rect x="344" y="19" width="21" height="11" rx="3" fill="none" stroke="#FFFFFF" stroke-opacity="0.5"/>
+<rect x="346" y="21" width="15" height="7" rx="1.5" fill="#FFFFFF"/>
+<path d="M 367 22.5 v 4" stroke="#FFFFFF" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round"/>
+</g>
+<g id="Header 2">
+<rect x="16" y="63" width="24" height="24" rx="6" fill="none" stroke="#FFFFFF" stroke-width="1.8"/>
+<path d="M 31 63 V 87" stroke="#FFFFFF" stroke-width="1.8"/>
+<path d="M 195 64 C 198.08 70.072 199.928 71.92 206 75 C 199.928 78.08 198.08 79.928 195 86 C 191.92 79.928 190.072 78.08 184 75 C 190.072 71.92 191.92 70.072 195 64 Z" fill="url(#grad-accent)"/>
+<path d="M 368 76 V 82 A 3 3 0 0 1 365 85 H 353 A 3 3 0 0 1 350 82 V 70 A 3 3 0 0 1 353 67 H 359" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 363.5 65.5 L 367.5 69.5 L 359 78 H 355 V 74 Z" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linejoin="round"/>
+</g>
+<g id="Message/user">
+<rect x="78" y="370" width="296" height="72" rx="16" fill="#272829"/>
+<text x="94" y="400" font-family="Open Sans" font-weight="400" font-size="15" fill="#FFFFFF">Peux-tu comparer ces deux documents</text>
+<text x="94" y="420" font-family="Open Sans" font-weight="400" font-size="15" fill="#FFFFFF">et lister les différences ?</text>
+</g>
+<g id="Message/assistant">
+<rect x="16" y="462" width="28" height="28" rx="9" fill="#272829"/>
+<path d="M 30 467 C 32.52 471.968 34.032000000000004 473.48 39 476 C 34.032000000000004 478.52 32.52 480.032 30 485 C 27.48 480.032 25.968 478.52 21 476 C 25.968 473.48 27.48 471.968 30 467 Z" fill="url(#grad-accent)"/>
+<path d="M 52 473.6 L 54.6 476.2 L 60.75 470.1" fill="none" stroke="#6CE0B1" stroke-width="1.1666" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="70" y="478" font-family="Open Sans" font-weight="400" font-size="12" fill="#A3A9AB">Lecture des documents</text>
+<path d="M 52 493.6 L 54.6 496.2 L 60.75 490.1" fill="none" stroke="#6CE0B1" stroke-width="1.1666" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="70" y="498" font-family="Open Sans" font-weight="400" font-size="12" fill="#A3A9AB">Comparaison des données</text>
+<text x="52" y="524" font-family="Open Sans" font-weight="400" font-size="15" fill="#FFFFFF">Voici le résultat de la comparaison.</text>
+<text x="52" y="544" font-family="Open Sans" font-weight="400" font-size="15" fill="#FFFFFF">Trois différences ont été identifiées.</text>
+<text x="52" y="564" font-family="Open Sans" font-weight="400" font-size="15" fill="#FFFFFF">Le détail est dans le fichier ci-dessous.</text>
+<g id="Card/file/mobile">
+<rect x="52" y="580" width="322" height="120" rx="12" fill="#272829" stroke="#383838"/>
+<rect x="68" y="596" width="36" height="36" rx="10" fill="#1F9D55"/>
+<text x="86" y="618" font-family="Open Sans" font-weight="700" font-size="10" fill="#FFFFFF" text-anchor="middle">XLS</text>
+<text x="116" y="610" font-family="Open Sans" font-weight="700" font-size="13" fill="#FFFFFF">nom-du-fichier.xlsx</text>
+<text x="116" y="630" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">XLSX · 128 Ko</text>
+<rect x="68" y="644" width="290" height="40" rx="8" fill="url(#grad-primary)"/>
+<text x="213" y="669" font-family="Open Sans" font-weight="700" font-size="13" fill="#1C1B1B" text-anchor="middle">Ouvrir le fichier</text>
+</g></g>
+<g id="Chatbar/idle 2">
+<rect x="16" y="744" width="358" height="56" rx="28" fill="#272829"/>
+<g id="PlusButton 2"><circle cx="44" cy="772" r="16" fill="#333435"/><path d="M 37.5 772 h 13 M 44 765.5 v 13" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/></g>
+<text x="70" y="778" font-family="Open Sans" font-weight="400" font-size="16" fill="#A3A9AB">Message…</text>
+<g id="Button/voice 2"><circle cx="350" cy="772" r="20" fill="url(#grad-primary)"/>
+<path d="M 343.5 768 V 776" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/>
+<path d="M 347.8 764 V 780" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/>
+<path d="M 352.2 766.5 V 777.5" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/>
+<path d="M 356.5 769 V 775" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/>
+</g>
+</g>
+<rect id="HomeIndicator 2" x="125" y="831" width="140" height="5" rx="2.5" fill="#FFFFFF" fill-opacity="0.3"/>
+</g>
+<text x="900" y="88" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">3 · Vocal — écoute</text>
+<g id="Screen/3 · Vocal — écoute" transform="translate(900,100)">
+<rect id="Device/voice-listening" x="0" y="0" width="390" height="844" rx="47" fill="#1C1B1B"/>
+<path id="Notch 3" d="M 114 0 H 276 V 12 A 20 20 0 0 1 256 32 H 134 A 20 20 0 0 1 114 12 Z" fill="#000000"/>
+<g id="StatusBar 3">
+<text x="54" y="33" font-family="Open Sans" font-weight="700" font-size="15" fill="#FFFFFF" text-anchor="middle">9:41</text>
+<rect x="300" y="24" width="3" height="4" rx="1" fill="#FFFFFF"/>
+<rect x="305" y="22" width="3" height="6" rx="1" fill="#FFFFFF"/>
+<rect x="310" y="20" width="3" height="8" rx="1" fill="#FFFFFF"/>
+<rect x="315" y="18" width="3" height="10" rx="1" fill="#FFFFFF"/>
+<path d="M 324 21.5 A 9 9 0 0 1 336 21.5" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round"/>
+<path d="M 327 25 A 5 5 0 0 1 333 25" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round"/>
+<circle cx="330" cy="27.8" r="1.2" fill="#FFFFFF"/>
+<rect x="344" y="19" width="21" height="11" rx="3" fill="none" stroke="#FFFFFF" stroke-opacity="0.5"/>
+<rect x="346" y="21" width="15" height="7" rx="1.5" fill="#FFFFFF"/>
+<path d="M 367 22.5 v 4" stroke="#FFFFFF" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round"/>
+</g>
+<g id="VoiceTopBar"><path d="M 22 72 L 28 78 L 34 72" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g id="Orb/listening">
+<circle cx="195" cy="300" r="140" fill="none" stroke="url(#grad-accent)" stroke-width="1" stroke-opacity="0.1"/>
+<circle cx="195" cy="300" r="118" fill="none" stroke="url(#grad-accent)" stroke-width="1.5" stroke-opacity="0.18"/>
+<circle cx="195" cy="300" r="100" fill="none" stroke="url(#grad-accent)" stroke-width="2" stroke-opacity="0.3"/>
+<circle cx="195" cy="300" r="82" fill="url(#grad-accent)"/>
+</g>
+<text x="195" y="432" font-family="Open Sans" font-weight="400" font-size="15" fill="#A3A9AB" text-anchor="middle">Je vous écoute</text>
+<g id="Transcript/live">
+<text x="195" y="486" font-family="Open Sans" font-weight="400" font-size="20" fill="#FFFFFF" text-anchor="middle">Ceci est la transcription en direct</text>
+<text x="195" y="514" font-family="Open Sans" font-weight="400" font-size="20" fill="#FFFFFF" text-anchor="middle">de ce que dit l'utilisateur, affichée</text>
+<text x="195" y="542" font-family="Open Sans" font-weight="400" font-size="20" fill="#FFFFFF" text-anchor="middle">au fur et à mesure.</text>
+</g>
+<g id="Waveform/live">
+<rect x="75" y="616" width="3" height="8" rx="1.5" fill="#8D8DC8"/>
+<rect x="85" y="613" width="3" height="14" rx="1.5" fill="#8D8DC8"/>
+<rect x="95" y="609" width="3" height="22" rx="1.5" fill="#8D8DC8"/>
+<rect x="105" y="604" width="3" height="32" rx="1.5" fill="#8D8DC8"/>
+<rect x="115" y="598" width="3" height="44" rx="1.5" fill="#8D8DC8"/>
+<rect x="125" y="596" width="3" height="48" rx="1.5" fill="#8D8DC8"/>
+<rect x="135" y="601" width="3" height="38" rx="1.5" fill="#8D8DC8"/>
+<rect x="145" y="607" width="3" height="26" rx="1.5" fill="#8D8DC8"/>
+<rect x="155" y="611" width="3" height="18" rx="1.5" fill="#8D8DC8"/>
+<rect x="165" y="606" width="3" height="28" rx="1.5" fill="#8D8DC8"/>
+<rect x="175" y="600" width="3" height="40" rx="1.5" fill="#8D8DC8"/>
+<rect x="185" y="596" width="3" height="48" rx="1.5" fill="#8D8DC8"/>
+<rect x="195" y="598" width="3" height="44" rx="1.5" fill="#8D8DC8"/>
+<rect x="205" y="603" width="3" height="34" rx="1.5" fill="#8D8DC8"/>
+<rect x="215" y="609" width="3" height="22" rx="1.5" fill="#8D8DC8"/>
+<rect x="225" y="612" width="3" height="16" rx="1.5" fill="#8D8DC8"/>
+<rect x="235" y="608" width="3" height="24" rx="1.5" fill="#8D8DC8"/>
+<rect x="245" y="602" width="3" height="36" rx="1.5" fill="#8D8DC8"/>
+<rect x="255" y="597" width="3" height="46" rx="1.5" fill="#8D8DC8"/>
+<rect x="265" y="600" width="3" height="40" rx="1.5" fill="#8D8DC8"/>
+<rect x="275" y="606" width="3" height="28" rx="1.5" fill="#8D8DC8"/>
+<rect x="285" y="611" width="3" height="18" rx="1.5" fill="#8D8DC8"/>
+<rect x="295" y="614" width="3" height="12" rx="1.5" fill="#8D8DC8"/>
+<rect x="305" y="616" width="3" height="8" rx="1.5" fill="#8D8DC8"/>
+<rect x="315" y="615" width="3" height="10" rx="1.5" fill="#8D8DC8"/>
+</g>
+<g id="VoiceControls">
+<g id="Control/mute"><circle cx="91" cy="722" r="32" fill="#333435"/>
+<rect x="87" y="711" width="8" height="14" rx="4" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+<path d="M 83 723 v 2 a 8 8 0 0 0 16 0 v -2" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+<path d="M 91 733 v 4" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+<path d="M 81 710 L 101 734" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/></g>
+<g id="Control/keyboard"><circle cx="195" cy="722" r="32" fill="#333435"/>
+<rect x="178" y="711" width="34" height="22" rx="4" fill="none" stroke="#FFFFFF" stroke-width="1.8"/>
+<circle cx="184.5" cy="717.5" r="1.3" fill="#FFFFFF"/>
+<circle cx="191.5" cy="717.5" r="1.3" fill="#FFFFFF"/>
+<circle cx="198.5" cy="717.5" r="1.3" fill="#FFFFFF"/>
+<circle cx="205.5" cy="717.5" r="1.3" fill="#FFFFFF"/>
+<rect x="187" y="723" width="16" height="3" rx="1.5" fill="#FFFFFF"/></g>
+<g id="Control/end"><circle cx="299" cy="722" r="32" fill="#FF5A5F"/>
+<path d="M 291 714 L 307 730 M 307 714 L 291 730" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/></g>
+<text x="91" y="776" font-family="Open Sans" font-weight="400" font-size="11" fill="#626C72" text-anchor="middle">Micro</text>
+<text x="195" y="776" font-family="Open Sans" font-weight="400" font-size="11" fill="#626C72" text-anchor="middle">Clavier</text>
+<text x="299" y="776" font-family="Open Sans" font-weight="400" font-size="11" fill="#626C72" text-anchor="middle">Terminer</text>
+</g>
+<rect id="HomeIndicator 3" x="125" y="831" width="140" height="5" rx="2.5" fill="#FFFFFF" fill-opacity="0.3"/>
+</g>
+<text x="1330" y="88" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">4 · Vocal — traitement</text>
+<g id="Screen/4 · Vocal — traitement" transform="translate(1330,100)">
+<rect id="Device/voice-processing" x="0" y="0" width="390" height="844" rx="47" fill="#1C1B1B"/>
+<path id="Notch 4" d="M 114 0 H 276 V 12 A 20 20 0 0 1 256 32 H 134 A 20 20 0 0 1 114 12 Z" fill="#000000"/>
+<g id="StatusBar 4">
+<text x="54" y="33" font-family="Open Sans" font-weight="700" font-size="15" fill="#FFFFFF" text-anchor="middle">9:41</text>
+<rect x="300" y="24" width="3" height="4" rx="1" fill="#FFFFFF"/>
+<rect x="305" y="22" width="3" height="6" rx="1" fill="#FFFFFF"/>
+<rect x="310" y="20" width="3" height="8" rx="1" fill="#FFFFFF"/>
+<rect x="315" y="18" width="3" height="10" rx="1" fill="#FFFFFF"/>
+<path d="M 324 21.5 A 9 9 0 0 1 336 21.5" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round"/>
+<path d="M 327 25 A 5 5 0 0 1 333 25" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round"/>
+<circle cx="330" cy="27.8" r="1.2" fill="#FFFFFF"/>
+<rect x="344" y="19" width="21" height="11" rx="3" fill="none" stroke="#FFFFFF" stroke-opacity="0.5"/>
+<rect x="346" y="21" width="15" height="7" rx="1.5" fill="#FFFFFF"/>
+<path d="M 367 22.5 v 4" stroke="#FFFFFF" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round"/>
+</g>
+<g id="VoiceTopBar 2"><path d="M 22 72 L 28 78 L 34 72" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g id="Orb/processing">
+<circle cx="195" cy="300" r="82" fill="url(#grad-accent)" fill-opacity="0.3"/>
+<circle cx="195" cy="300" r="100" fill="none" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="3"/>
+<path d="M 195 200 A 100 100 0 0 1 295 300" fill="none" stroke="#8D8DC8" stroke-width="3" stroke-linecap="round"/>
+</g>
+<text x="195" y="432" font-family="Open Sans" font-weight="400" font-size="15" fill="#A3A9AB" text-anchor="middle">Un instant…</text>
+<g id="Transcript/settled">
+<text x="195" y="486" font-family="Open Sans" font-weight="400" font-size="20" fill="#626C72" text-anchor="middle">Ceci est la transcription en direct</text>
+<text x="195" y="514" font-family="Open Sans" font-weight="400" font-size="20" fill="#626C72" text-anchor="middle">de ce que dit l'utilisateur, affichée</text>
+<text x="195" y="542" font-family="Open Sans" font-weight="400" font-size="20" fill="#626C72" text-anchor="middle">au fur et à mesure.</text>
+</g>
+<g id="Dots/processing">
+<circle cx="183" cy="620" r="4" fill="#8D8DC8" fill-opacity="1"/>
+<circle cx="195" cy="620" r="4" fill="#8D8DC8" fill-opacity="0.6"/>
+<circle cx="207" cy="620" r="4" fill="#8D8DC8" fill-opacity="0.3"/>
+</g>
+<g id="VoiceControls 2">
+<g id="Control/mute 2"><circle cx="91" cy="722" r="32" fill="#333435"/>
+<rect x="87" y="711" width="8" height="14" rx="4" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+<path d="M 83 723 v 2 a 8 8 0 0 0 16 0 v -2" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+<path d="M 91 733 v 4" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+<path d="M 81 710 L 101 734" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/></g>
+<g id="Control/keyboard 2"><circle cx="195" cy="722" r="32" fill="#333435"/>
+<rect x="178" y="711" width="34" height="22" rx="4" fill="none" stroke="#FFFFFF" stroke-width="1.8"/>
+<circle cx="184.5" cy="717.5" r="1.3" fill="#FFFFFF"/>
+<circle cx="191.5" cy="717.5" r="1.3" fill="#FFFFFF"/>
+<circle cx="198.5" cy="717.5" r="1.3" fill="#FFFFFF"/>
+<circle cx="205.5" cy="717.5" r="1.3" fill="#FFFFFF"/>
+<rect x="187" y="723" width="16" height="3" rx="1.5" fill="#FFFFFF"/></g>
+<g id="Control/end 2"><circle cx="299" cy="722" r="32" fill="#FF5A5F"/>
+<path d="M 291 714 L 307 730 M 307 714 L 291 730" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/></g>
+<text x="91" y="776" font-family="Open Sans" font-weight="400" font-size="11" fill="#626C72" text-anchor="middle">Micro</text>
+<text x="195" y="776" font-family="Open Sans" font-weight="400" font-size="11" fill="#626C72" text-anchor="middle">Clavier</text>
+<text x="299" y="776" font-family="Open Sans" font-weight="400" font-size="11" fill="#626C72" text-anchor="middle">Terminer</text>
+</g>
+<rect id="HomeIndicator 4" x="125" y="831" width="140" height="5" rx="2.5" fill="#FFFFFF" fill-opacity="0.3"/>
+</g>
+<text x="1760" y="88" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">5 · Vocal — réponse parlée</text>
+<g id="Screen/5 · Vocal — réponse parlée" transform="translate(1760,100)">
+<rect id="Device/voice-speaking" x="0" y="0" width="390" height="844" rx="47" fill="#1C1B1B"/>
+<path id="Notch 5" d="M 114 0 H 276 V 12 A 20 20 0 0 1 256 32 H 134 A 20 20 0 0 1 114 12 Z" fill="#000000"/>
+<g id="StatusBar 5">
+<text x="54" y="33" font-family="Open Sans" font-weight="700" font-size="15" fill="#FFFFFF" text-anchor="middle">9:41</text>
+<rect x="300" y="24" width="3" height="4" rx="1" fill="#FFFFFF"/>
+<rect x="305" y="22" width="3" height="6" rx="1" fill="#FFFFFF"/>
+<rect x="310" y="20" width="3" height="8" rx="1" fill="#FFFFFF"/>
+<rect x="315" y="18" width="3" height="10" rx="1" fill="#FFFFFF"/>
+<path d="M 324 21.5 A 9 9 0 0 1 336 21.5" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round"/>
+<path d="M 327 25 A 5 5 0 0 1 333 25" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round"/>
+<circle cx="330" cy="27.8" r="1.2" fill="#FFFFFF"/>
+<rect x="344" y="19" width="21" height="11" rx="3" fill="none" stroke="#FFFFFF" stroke-opacity="0.5"/>
+<rect x="346" y="21" width="15" height="7" rx="1.5" fill="#FFFFFF"/>
+<path d="M 367 22.5 v 4" stroke="#FFFFFF" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round"/>
+</g>
+<g id="VoiceTopBar 3"><path d="M 22 72 L 28 78 L 34 72" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g id="Orb/speaking">
+<circle cx="195" cy="300" r="130" fill="none" stroke="url(#grad-accent)" stroke-width="1" stroke-opacity="0.1"/>
+<circle cx="195" cy="300" r="112" fill="none" stroke="url(#grad-accent)" stroke-width="1.5" stroke-opacity="0.22"/>
+<circle cx="195" cy="300" r="96" fill="none" stroke="url(#grad-accent)" stroke-width="2" stroke-opacity="0.4"/>
+<circle cx="195" cy="300" r="82" fill="url(#grad-accent)"/>
+</g>
+<text x="195" y="432" font-family="Open Sans" font-weight="400" font-size="15" fill="#A3A9AB" text-anchor="middle">Réponse en cours</text>
+<g id="Transcript/synced">
+<text x="195" y="486" font-family="Open Sans" font-weight="400" font-size="20" fill="#FFFFFF" text-anchor="middle">Voici la réponse de l'assistant,</text>
+<text x="195" y="514" font-family="Open Sans" font-weight="400" font-size="20" fill="#FFFFFF" text-anchor="middle">lue à voix haute et transcrite</text>
+<text x="195" y="542" font-family="Open Sans" font-weight="400" font-size="20" fill="#626C72" text-anchor="middle">en même temps à l'écran, pour</text>
+<text x="195" y="570" font-family="Open Sans" font-weight="400" font-size="20" fill="#626C72" text-anchor="middle">pouvoir suivre sans écouter.</text>
+</g>
+<g id="Button/interrupt">
+<rect x="125" y="600" width="140" height="40" rx="20" fill="none" stroke="#383838"/>
+<text x="195" y="625" font-family="Open Sans" font-weight="400" font-size="13" fill="#FFFFFF" text-anchor="middle">Interrompre</text>
+</g>
+<g id="VoiceControls 3">
+<g id="Control/mute 3"><circle cx="91" cy="722" r="32" fill="#333435"/>
+<rect x="87" y="711" width="8" height="14" rx="4" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+<path d="M 83 723 v 2 a 8 8 0 0 0 16 0 v -2" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+<path d="M 91 733 v 4" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+<path d="M 81 710 L 101 734" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/></g>
+<g id="Control/keyboard 3"><circle cx="195" cy="722" r="32" fill="#333435"/>
+<rect x="178" y="711" width="34" height="22" rx="4" fill="none" stroke="#FFFFFF" stroke-width="1.8"/>
+<circle cx="184.5" cy="717.5" r="1.3" fill="#FFFFFF"/>
+<circle cx="191.5" cy="717.5" r="1.3" fill="#FFFFFF"/>
+<circle cx="198.5" cy="717.5" r="1.3" fill="#FFFFFF"/>
+<circle cx="205.5" cy="717.5" r="1.3" fill="#FFFFFF"/>
+<rect x="187" y="723" width="16" height="3" rx="1.5" fill="#FFFFFF"/></g>
+<g id="Control/end 3"><circle cx="299" cy="722" r="32" fill="#FF5A5F"/>
+<path d="M 291 714 L 307 730 M 307 714 L 291 730" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/></g>
+<text x="91" y="776" font-family="Open Sans" font-weight="400" font-size="11" fill="#626C72" text-anchor="middle">Micro</text>
+<text x="195" y="776" font-family="Open Sans" font-weight="400" font-size="11" fill="#626C72" text-anchor="middle">Clavier</text>
+<text x="299" y="776" font-family="Open Sans" font-weight="400" font-size="11" fill="#626C72" text-anchor="middle">Terminer</text>
+</g>
+<rect id="HomeIndicator 5" x="125" y="831" width="140" height="5" rx="2.5" fill="#FFFFFF" fill-opacity="0.3"/>
+</g>
+<text x="2190" y="88" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">6 · Chatbar — états</text>
+<g id="Screen/Chatbar states" transform="translate(2190,100)">
+<g id="Panel/chatbar-states">
+<text x="16" y="140" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">Repos — la voix est l'action primaire</text>
+<g id="Chatbar/idle mobile">
+<rect x="16" y="150" width="358" height="56" rx="28" fill="#272829"/>
+<g id="PlusButton 3"><circle cx="44" cy="178" r="16" fill="#333435"/><path d="M 37.5 178 h 13 M 44 171.5 v 13" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/></g>
+<text x="70" y="184" font-family="Open Sans" font-weight="400" font-size="16" fill="#A3A9AB">Message…</text>
+<g id="Button/voice 3"><circle cx="350" cy="178" r="20" fill="url(#grad-primary)"/>
+<path d="M 343.5 174 V 182" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/>
+<path d="M 347.8 170 V 186" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/>
+<path d="M 352.2 172.5 V 183.5" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/>
+<path d="M 356.5 175 V 181" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/>
+</g>
+</g>
+<text x="16" y="246" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">Saisie — l'envoi devient primaire</text>
+<g id="Chatbar/typing">
+<rect x="16" y="256" width="358" height="56" rx="28" fill="#272829"/>
+<g id="PlusButton 4"><circle cx="44" cy="284" r="16" fill="#333435"/><path d="M 37.5 284 h 13 M 44 277.5 v 13" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/></g>
+<text x="70" y="290" font-family="Open Sans" font-weight="400" font-size="16" fill="#FFFFFF">Texte saisi par l'utilisateur</text>
+<rect x="270" y="274" width="1.5" height="20" fill="#FFFFFF"/>
+<g id="Button/send"><circle cx="350" cy="284" r="20" fill="url(#grad-primary)"/><path d="M 350 290 V 278 M 345 283 L 350 278 L 355 283" fill="none" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+</g>
+<text x="16" y="352" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">Génération — arrêt disponible</text>
+<g id="Chatbar/generating">
+<rect x="16" y="362" width="358" height="56" rx="28" fill="#272829"/>
+<g id="PlusButton 5" opacity="0.3"><circle cx="44" cy="390" r="16" fill="#333435"/><path d="M 37.5 390 h 13 M 44 383.5 v 13" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/></g>
+<text x="70" y="396" font-family="Open Sans" font-weight="400" font-size="16" fill="#626C72">Génération en cours…</text>
+<g id="Button/stop"><circle cx="350" cy="390" r="20" fill="#FFFFFF"/><rect x="343" y="383" width="14" height="14" rx="4" fill="#1C1B1B"/></g>
+</g>
+<text x="16" y="458" font-family="Open Sans" font-weight="400" font-size="12" fill="#626C72">Pièce jointe</text>
+<g id="Chatbar/attachment">
+<rect x="16" y="468" width="358" height="88" rx="24" fill="#272829"/>
+<g id="Attachment/chip"><rect x="28" y="478" width="160" height="36" rx="10" fill="#1C1B1B" stroke="#383838"/>
+<rect x="36" y="484" width="24" height="24" rx="6" fill="#1F9D55"/>
+<text x="48" y="500" font-family="Open Sans" font-weight="700" font-size="9" fill="#FFFFFF" text-anchor="middle">XLS</text>
+<text x="68" y="500" font-family="Open Sans" font-weight="700" font-size="11" fill="#FFFFFF">nom-du-fichier.xlsx</text>
+<circle cx="188" cy="480" r="8" fill="#1C1B1B" stroke="#383838"/>
+<path d="M 185 477 l 6 6 M 191 477 l -6 6" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/></g>
+<g id="PlusButton 6"><circle cx="44" cy="532" r="16" fill="#333435"/><path d="M 37.5 532 h 13 M 44 525.5 v 13" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/></g>
+<text x="70" y="538" font-family="Open Sans" font-weight="400" font-size="16" fill="#A3A9AB">Message…</text>
+<g id="Button/voice 4"><circle cx="350" cy="532" r="20" fill="url(#grad-primary)"/>
+<path d="M 343.5 528 V 536" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/>
+<path d="M 347.8 524 V 540" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/>
+<path d="M 352.2 526.5 V 537.5" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/>
+<path d="M 356.5 529 V 535" stroke="#1C1B1B" stroke-width="2" stroke-linecap="round"/>
+</g>
+</g>
+</g>
+</g>
+</svg>
