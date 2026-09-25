@@ -1,0 +1,112 @@
+.active-filters {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  width: 100%;
+  min-width: 0;
+}
+
+.active-filters__list {
+  display: flex;
+  gap: var(--space-2);
+  margin: 0;
+  padding: 0 0 2px;
+  list-style: none;
+  overflow-x: auto;
+  scrollbar-width: none;
+  /* Fondu sur le bord droit quand la liste déborde */
+  mask-image: linear-gradient(to right, #000 calc(100% - 24px), transparent);
+}
+
+.active-filters__list::-webkit-scrollbar {
+  display: none;
+}
+
+.active-filters__list > li {
+  flex: none;
+}
+
+.active-filters__list > li:last-child {
+  padding-right: 24px;
+}
+
+.active-filters__chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  height: 32px;
+  padding: 0 4px 0 var(--space-3);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-pill);
+  background: var(--color-canvas);
+  font-size: 13px;
+  line-height: 18px;
+  white-space: nowrap;
+}
+
+.active-filters__group {
+  color: var(--color-text-secondary);
+}
+
+.active-filters__group::after {
+  content: " :";
+}
+
+.active-filters__label {
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+.active-filters__remove {
+  display: grid;
+  place-items: center;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border: 0;
+  border-radius: var(--radius-pill);
+  background: transparent;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  transition: background var(--transition), color var(--transition);
+}
+
+.active-filters__remove:hover {
+  background: var(--color-surface-raised);
+  color: var(--color-text-primary);
+}
+
+.active-filters__meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.active-filters__count {
+  color: var(--color-text-secondary);
+}
+
+.active-filters__clear {
+  margin-left: auto;
+  padding: 2px 0;
+  border: 0;
+  background: transparent;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--color-text);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+
+.active-filters__clear:hover {
+  color: var(--color-text-primary);
+}
+
+.active-filters__remove:focus-visible,
+.active-filters__clear:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
+}

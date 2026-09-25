@@ -1,0 +1,58 @@
+/* Design tokens extraits de la maquette Figma "Library" */
+:root {
+  --color-canvas: #121212;
+  --color-canvas-dot: #303030;
+  --color-surface: #303030;
+  --color-surface-raised: #464646;
+  --color-border: #464646;
+  --color-text-primary: #ffffff;
+  --color-text: #d9d9d9;
+  /* secondary : placeholder, icônes chatbar, titres de section */
+  --color-text-secondary: #a3a9ab;
+
+  --gradient-blue: linear-gradient(45deg, #1d4ed8 0%, #377cf3 100.17%);
+  --gradient-eureka: linear-gradient(283.2deg, #6ce0b1 9.11%, #818bfd 47.41%, #ef7ac5 85.71%);
+
+  --radius-lg: 16px;
+  --radius-md: 12px;
+  --radius-sm: 8px;
+  --radius-pill: 100px;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+
+  --font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --focus-ring: 0 0 0 2px #121212, 0 0 0 4px #377cf3;
+  --transition: 160ms ease;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  font-family: var(--font-family);
+  color: var(--color-text);
+  /* Grille de points 2px espacés de 44.6px, comme le fond de la maquette */
+  background-color: var(--color-canvas);
+  background-image: radial-gradient(circle, var(--color-canvas-dot) 1px, transparent 1.5px);
+  background-size: 44.6px 44.6px;
+  background-position: 9px 11px;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+}
