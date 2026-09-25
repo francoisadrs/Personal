@@ -1,0 +1,46 @@
+.stage {
+  display: flex;
+  justify-content: flex-end;
+  min-height: 100vh;
+}
+
+/* Side panel de la maquette : 505px, #303030, pleine hauteur */
+.library-panel {
+  display: flex;
+  flex-direction: column;
+  width: 505px;
+  max-width: 100%;
+  min-height: 100vh;
+  background: var(--color-surface);
+}
+
+.library-panel__top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 64px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.library-panel__title {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.library-panel__content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+  padding: var(--space-6);
+}
+
+@media (max-width: 540px) {
+  .library-panel__content {
+    padding: var(--space-4);
+  }
+}
